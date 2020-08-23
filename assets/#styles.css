@@ -17,9 +17,7 @@ font-family: Carneys Gallery Demo Version;
 .bg-gray {
         background-color:gray;
     }
-button[:disabled]{
-    opacity: 0,5;
-}
+
 
 h1:hover{
     color: indigo;
