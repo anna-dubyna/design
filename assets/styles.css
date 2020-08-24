@@ -1,37 +1,28 @@
-body{
-    background-color: #F8F8F8;
-    color: black;
-    font-family: 'PTRoot'
-    font-size: 20px;
-    max-width: 400px;
-    margin: 0 auto;
-}
 @font-face {
-	font-family: 'PTRootUIWebMedium';
-	src: url("assets/fonts/PTRootUIWebMedium");
-	src:
-	     url('assets/fonts/PTRootUIWebMedium') format('embedded-opentype'),
-	     url('assets/fonts/PT%20Root%20UI_Medium.woff2') format('woff2'),
-	     url('asseta/fonts/PT%20Root%20UI_Medium.woff') format('woff'),
-	     url('assets/fonts/PT%20Root%20UI_Medium.ttf') format('truetype');
+	font-family: 'PTRootUIWebLight';
+	src: url('fonts/PT\ Root\ UI_Light.woff2') format('woff2'),
+	     url('fonts/PT\ Root\ UI_Light.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'PTRootUIWebRegular';
-	src: url('assets/fonts/PT%20Root%20UI_Regular.eot');
-	src:
-	     url('assets/fonts/PT%20Root%20UI_Regular.eot?#iefix') format('embedded-opentype'),
-	     url('assets/fonts/PT%20Root%20UI_Regular.woff2') format('woff2'),
-	     url('assets/fonts/PT%20Root%20UI_Regular.woff') format('woff'),
-	     url('assets/fonts/PT%20Root%20UI_Regular.ttf') format('truetype');
+	src: url('fonts/PT\ Root\ UI_Regular.woff2') format('woff2'),
+	     url('fonts/PT\ Root\ UI_Regular.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
-#first-par{ color: tomato;
+body{
+    background-color: #F8F8F8;
+    color: black;
+    font-family: "PTRootUIWeb";
+    font-weight: normal;
+    font-size: 20px;
+    max-width: 400px;
+    margin: 0 auto;
 }
-h2 {
-    font-family: ;
+
+#first-par{ color: tomato;
 }
 .text-blue {
     color: blue;
