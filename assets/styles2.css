@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'IBM Plex Sans Condensed';
+    src: url('fonts/IBMPlexSansCond.woff2') format('woff2'),
+        url('fonts/IBMPlexSansCond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background: #00494E;   
+    position: absolute;
+        width: 1440px;
+        height: 1024px;
+        left: 0px;
+        top: 0px; 
+       }
+      
