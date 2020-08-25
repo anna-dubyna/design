@@ -1,47 +1,85 @@
 @font-face {
 	font-family: 'PTRootUIWebLight';
-	src: url('PT%20Root%20UI_Light.eot');
+	src: url('fonts/PT\ Root\ UI_Light.eot');
 	src:
-	     url('PT%20Root%20UI_Light.eot?#iefix') format('embedded-opentype'),
-	     url('PT%20Root%20UI_Light.woff2') format('woff2'),
-	     url('PT%20Root%20UI_Light.woff') format('woff'),
-	     url('PT%20Root%20UI_Light.ttf') format('truetype');
+	     url('fonts/PT\ Root\ UI_Light.eot') format('embedded-opentype'),
+	     url('fonts/PT\ Root\ UI_Light.woff2') format('woff2'),
+	     url('fonts/PT\ Root\ UI_Light.woff') format('woff'),
+	     url('fonts/PT\ Root\ UI_Light.ttf') format('truetype');
 	font-weight: normal;
-	font-style: normal;
+	font-style: italic;
 }
 @font-face {
 	font-family: 'PTRootUIWebRegular';
-	src: url('PT%20Root%20UI_Regular.eot');
+	src: url('fonts/PT\ Root\ UI_Regular.eot');
 	src:
-	     url('PT%20Root%20UI_Regular.eot?#iefix') format('embedded-opentype'),
-	     url('PT%20Root%20UI_Regular.woff2') format('woff2'),
-	     url('PT%20Root%20UI_Regular.woff') format('woff'),
-	     url('PT%20Root%20UI_Regular.ttf') format('truetype');
+	     url('fonts/PT\ Root\ UI_Regular.eot') format('embedded-opentype'),
+	     url('fonts/PT\ Root\ UI_Regular.woff2') format('woff2'),
+	     url('fonts/PT\ Root\ UI_Regular.woff') format('woff'),
+	     url('fonts/PT\ Root\ UI_Regular.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 }
-
 body{
     background-color: #F8F8F8;
     color: black;
-    font-family: "PTRootUIWeb";
+    font-family: 'PTRootUIWebLight';
     font-weight: normal;
-    font-size: 20px;
-    max-width: 400px;
+    max-width: 1440px;
     margin: 0 auto;
 }
-
-#first-par{ color: tomato;
-}
-.text-blue {
-    color: blue;
-}
-.bg-gray {
-        background-color:gray;
-    }
 h1:hover{
     color: indigo;
 }
-p:first-line {
-    text-indent: 20px;
+h1{
+font-family: 'PTRootUIWebLight';
+font-style: normal;
+font-weight: 300;
+font-size: 96px;
+text-align: center;
 }
+h2{
+font-family: PT Root UI Web;
+font-style: normal;
+font-weight: 300;
+font-size: 36px;
+line-height: 60px;
+text-align: center;
+text-transform: uppercase;
+}
+#first-par {
+font-family: PT Root UI Web;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+text-align: center;
+}
+h3{
+	font-family: PT Root UI Web;
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+}
+.p-second {
+font-family: PT Root UI Web;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+position: absolute;
+width: 629px;
+}
+h4{
+	font-family: PT Root UI Web;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+}
+h5{
+	font-family: PT Root UI Web;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+text-align: right;
+}
+
