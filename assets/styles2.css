@@ -76,7 +76,7 @@ h2{
 width: 864px;
 height: 125px;
 left: 270px;
-top: 397px;
+top: 330px;
 
 font-family: North Avellion DEMO;
 font-style: normal;
@@ -89,7 +89,7 @@ text-transform: capitalize;
 color: #000000;
 
 }
-.p-first{
+#first{
  position: absolute;
 width: 296px;
 height: 44px;
@@ -107,7 +107,7 @@ letter-spacing: 0.16em;
 color: #E0DEDE;
 
 }
-.p-second{
+#second{
     position: absolute;
 width: 396px;
 height: 62px;
@@ -123,6 +123,16 @@ text-align: center;
 letter-spacing: 0.07em;
 text-transform: uppercase;
 
-color: #FFFFFF;
+color: #E0DEDE;
+}
+/* Line 1 */
+.line {
+position: absolute;
+width: 100px;
+height: 0px;
+left: 700px;
+top: 900px;
 
+border: 2px solid #FDF8F8;
+transform: rotate(90deg);
 }
