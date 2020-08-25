@@ -6,13 +6,123 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Carneys Gallery Demo Version';
+    src: url('fonts/CarneysGalleryDemoVersion.woff2') format('woff2'),
+        url('fonts/CarneysGalleryDemoVersion.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'North Avellion DEMO';
+    src: url('fonts/NorthAvellionDEMO.woff2') format('woff2'),
+        url('fonts/NorthAvellionDEMO.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 body{
-    background: #00494E;   
+    background: #00494E;
+    color: #F5F5F5;   
     position: absolute;
         width: 1440px;
         height: 1024px;
         left: 0px;
         top: 0px; 
        }
-      
+h3{
+    position: absolute;
+width: 707px;
+height: 55px;
+left: 391px;
+top: 128px;
+
+font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 117.6%;
+/* or 42px */
+
+text-align: center;
+letter-spacing: 0.535em;
+font-feature-settings: 'salt' on;
+
+color: #F5F5F5;
+
+}
+h1{
+    position: absolute;
+width: 992px;
+height: 229px;
+left: 243px;
+top: 283px;
+
+/* h1.1 */
+
+font-family: Carneys Gallery Demo Version;
+font-style: normal;
+font-weight: normal;
+font-size: 200px;
+line-height: 257px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+h2{
+    position: absolute;
+width: 864px;
+height: 125px;
+left: 270px;
+top: 397px;
+
+font-family: North Avellion DEMO;
+font-style: normal;
+font-weight: normal;
+font-size: 250px;
+line-height: 275px;
+text-align: center;
+text-transform: capitalize;
+
+color: #000000;
+
+}
+.p-first{
+ position: absolute;
+width: 296px;
+height: 44px;
+left: 449px;
+top: 827px;
+
+font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+letter-spacing: 0.16em;
+
+color: #E0DEDE;
+
+}
+.p-second{
+    position: absolute;
+width: 396px;
+height: 62px;
+left: 745px;
+top: 827px;
+
+font-family: IBM Plex Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 47px;
+text-align: center;
+letter-spacing: 0.07em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
