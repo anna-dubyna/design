@@ -11,7 +11,7 @@
         }
         
         body {
-            max-width: 1152px;
+            max-width: 1500px;
             margin: 0 auto;
             background-color: white;
         }
@@ -20,14 +20,13 @@
             display: flex;
             flex-wrap: wrap;
             border: 2px dotted gray;
-            /* height: 1684px; */
             height: 100vh;
         }
         
         aside {
             position: left;
             width: 30%;
-            height: 1500px;
+            height: 100vh;
             top: 0px;
             border: solid 1px currentColor;
             background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
@@ -35,83 +34,43 @@
         
         .card-container {
             position: right;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px dotted gray;
             width: 70%;
-            height: 1500px;
-            background-color: grey;
+            height: 100vh;
+            background-color: white;
         }
         
         .col {
-            padding-right: 0px 40px;
-            margin-left: 20px;
-            margin-top: 20px;
-        }
-        
-        .col-1 {
-            width: calc(100% / 12);
-        }
-        
-        .col-2 {
-            width: calc(100% / 12 * 2);
-        }
-        
-        .col-3 {
-            width: calc(100% / 12 * 3);
-        }
-        
-        .col-4 {
-            width: calc(100% / 12 * 4);
-        }
-        
-        .col-5 {
-            width: calc(100% / 12 * 5);
-        }
-        
-        .col-6 {
-            width: calc(100% / 12 * 6);
-        }
-        
-        .col-7 {
-            width: calc(100% / 12 * 7);
-        }
-        
-        .col-8 {
-            width: calc(100% / 12 * 8);
-        }
-        
-        .col-9 {
-            width: calc(100% / 12 * 9);
-        }
-        
-        .col-10 {
-            width: calc(100% / 12 * 10);
-        }
-        
-        .col-11 {
-            width: calc(100% / 12 * 11);
-        }
-        
-        .col-12 {
-            width: 100%;
+            padding: 0px 5px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 10px;
         }
         
         .card-1 {
             height: 270px;
+            width: 708px;
             border: black 1px solid;
             margin-left: 20px;
             margin-top: 10px;
+            margin-right: 40px;
+            margin-block-end: 20px;
         }
         
         .card-2 {
+            height: 270px;
+            width: 345px;
             border: black 1px solid;
-            height: 345px;
-            float: left;
+            margin-left: 20px;
         }
         
         .card-3 {
+            height: 270px;
+            width: 345px;
             border: black 1px solid;
-            height: 250px;
-            width: 345;
-            float: left;
+            margin-left: 20px;
         }
     </style>
 </head>
@@ -125,9 +84,11 @@
             <p>Contacts</p>
         </aside>
         <div class="card-container">
-            <div class="col col-11 card-1"></div>
-            <div class="col col-5 card-2"></div>
-            <div class="col col-5 card-3"></div>
+            <div class="col card-1"></div>
+            <div class="col card-2"></div>
+            <div class="col card-3"></div>
+
+
 
         </div>
 
