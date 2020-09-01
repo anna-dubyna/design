@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <title>Skvot Tutorial</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet" />
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: grey;
+        }
+        
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -4px;
+        }
+        
+        .col {
+            padding: 0 4px;
+        }
+        
+        .col-1 {
+            width: calc(100% / 12);
+        }
+        
+        .col-2 {
+            width: calc(100% / 12 * 2);
+        }
+        
+        .col-3 {
+            width: calc(100% / 12 * 3);
+        }
+        
+        .col-4 {
+            width: calc(100% / 12 * 4);
+        }
+        
+        .col-5 {
+            width: calc(100% / 12 * 5);
+        }
+        
+        .col-6 {
+            width: calc(100% / 12 * 6);
+        }
+        
+        .col-7 {
+            width: calc(100% / 12 * 7);
+        }
+        
+        .col-8 {
+            width: calc(100% / 12 * 8);
+        }
+        
+        .col-9 {
+            width: calc(100% / 12 * 9);
+        }
+        
+        .col-10 {
+            width: calc(100% / 12 * 10);
+        }
+        
+        .col-11 {
+            width: calc(100% / 12 * 11);
+        }
+        
+        .col-12 {
+            width: 100%;
+        }
+        
+        .box {
+            padding: 8px;
+            border: currentcolor solid 2px;
+            height: 800px;
+            width: 62%;
+            background-color: honeydew;
+        }
+        
+        .row+.row {
+            margin-top: 20px;
+        }
+        
+        .aside {
+            position: absolute;
+            width: 48%;
+            height: auto;
+            left: 0px;
+            top: 0px;
+            background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
+        }
+    </style>
+</head>
+
+<body>
+    <div style="display: flex;">
+        <!-- Sidebar -->
+        <aside style="width: 30%;">
+        </aside>
+
+        <!-- Main -->
+        <main style="
+            /* Take the remaining width */
+            flex: 1;
+    
+            /* Make it scrollable */
+            overflow: auto;
+        ">
+        </main>
+    </div>
+    <aside>
+        для наполнения меню
+    </aside>
+    <div class="col col-7 block-1">
+        <div class="box">7</div>
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>

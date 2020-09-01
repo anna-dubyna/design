@@ -1,137 +1,130 @@
 @font-face {
     font-family: 'IBM Plex Sans Condensed';
-    src: url('fonts/IBMPlexSansCond.woff2') format('woff2'),
-        url('fonts/IBMPlexSansCond.woff') format('woff');
+    src: url('fonts/IBMPlexSansCond.woff2') format('woff2'), url('fonts/IBMPlexSansCond.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Carneys Gallery Demo Version';
-    src: url('fonts/CarneysGalleryDemoVersion.woff2') format('woff2'),
-        url('fonts/CarneysGalleryDemoVersion.woff') format('woff');
+    src: url('fonts/CarneysGalleryDemoVersion.woff2') format('woff2'), url('fonts/CarneysGalleryDemoVersion.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'North Avellion DEMO';
-    src: url('fonts/NorthAvellionDEMO.woff2') format('woff2'),
-        url('fonts/NorthAvellionDEMO.woff') format('woff');
+    src: url('fonts/NorthAvellionDEMO.woff2') format('woff2'), url('fonts/NorthAvellionDEMO.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
-body{
+
+body {
     background: #00494E;
-    color: #F5F5F5;   
+    color: #F5F5F5;
     position: absolute;
-        width: 1440px;
-        height: 1024px;
-        left: 0px;
-        top: 0px; 
-       }
-h3{
+    width: 1440px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+}
+
+h3 {
     position: absolute;
-width: 707px;
-height: 55px;
-left: 391px;
-top: 128px;
-
-font-family: IBM Plex Serif;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 117.6%;
-/* or 42px */
-
-text-align: center;
-letter-spacing: 0.535em;
-font-feature-settings: 'salt' on;
-
-color: #F5F5F5;
-
+    width: 707px;
+    height: 55px;
+    left: 391px;
+    top: 128px;
+    font-family: IBM Plex Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 117.6%;
+    /* or 42px */
+    text-align: center;
+    letter-spacing: 0.535em;
+    font-feature-settings: 'salt' on;
+    color: #F5F5F5;
 }
-h1{
+
+h1 {
     position: absolute;
-width: 992px;
-height: 229px;
-left: 243px;
-top: 283px;
-
-/* h1.1 */
-
-font-family: Carneys Gallery Demo Version;
-font-style: normal;
-font-weight: normal;
-font-size: 200px;
-line-height: 257px;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
+    width: 992px;
+    height: 229px;
+    left: 243px;
+    top: 283px;
+    /* h1.1 */
+    font-family: Carneys Gallery Demo Version;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 257px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
-h2{
+
+h2 {
     position: absolute;
-width: 864px;
-height: 125px;
-left: 270px;
-top: 330px;
-
-font-family: North Avellion DEMO;
-font-style: normal;
-font-weight: normal;
-font-size: 250px;
-line-height: 275px;
-text-align: center;
-text-transform: capitalize;
-
-color: #000000;
-
+    width: 864px;
+    height: 125px;
+    left: 270px;
+    top: 330px;
+    font-family: North Avellion DEMO;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 250px;
+    line-height: 275px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
 }
-#first{
- position: absolute;
-width: 296px;
-height: 44px;
-left: 449px;
-top: 827px;
 
-font-family: IBM Plex Serif;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 47px;
-text-align: center;
-letter-spacing: 0.16em;
-
-color: #E0DEDE;
-
-}
-#second{
+#first {
     position: absolute;
-width: 396px;
-height: 62px;
-left: 745px;
-top: 827px;
-
-font-family: IBM Plex Serif;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 47px;
-text-align: center;
-letter-spacing: 0.07em;
-text-transform: uppercase;
-
-color: #E0DEDE;
+    width: 296px;
+    height: 44px;
+    left: 449px;
+    top: 827px;
+    font-family: IBM Plex Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    color: #E0DEDE;
 }
+
+#second {
+    position: absolute;
+    width: 396px;
+    height: 62px;
+    left: 745px;
+    top: 827px;
+    font-family: IBM Plex Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 47px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #E0DEDE;
+}
+
+
 /* Line 1 */
-.line {
-position: absolute;
-width: 100px;
-height: 0px;
-left: 700px;
-top: 900px;
 
-border: 2px solid #FDF8F8;
-transform: rotate(90deg);
+.line {
+    position: absolute;
+    width: 100px;
+    height: 0px;
+    left: 700px;
+    top: 900px;
+    border: 2px solid #FDF8F8;
+    transform: rotate(90deg);
 }
