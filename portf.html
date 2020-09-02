@@ -6,26 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        * {
-            box-sizing: border-box;
-        }
-        
         body {
-            max-width: 1152px;
             margin: 0 auto;
+            padding: 0;
             background-color: white;
-        }
-        
-        .parent {
-            display: flex;
-            flex-wrap: wrap;
-            border: 2px dotted gray;
-            height: 100vh;
         }
         
         aside {
             position: left;
-            width: 30%;
+            width: 20%;
             height: 1500px;
             top: 0px;
             padding: 40px;
@@ -33,84 +22,106 @@
             background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
         }
         
-        .menu {
+        .menu-style {
             color: white;
         }
         
-        .card-container {
-            position: right;
-            display: grid;
-            border: 1px dotted gray;
-            width: 70%;
-            height: 0 auto;
-            background-color: white;
+        .layout {
+            display: flex;
+            min-height: 100vh;
         }
         
-        .col {
-            padding: 0px 5px;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            grid-gap: 20px;
+        .content-box {
+            width: 80%;
+            padding-left: 110px;
+            padding-right: 110px;
+            padding-top: 50px;
         }
         
-        .card-1 {
+        .big-card {
+            background-color: darkgreen;
             height: 270px;
-            width: 708px;
-            border: black 1px solid;
-            margin-left: 20px;
-            margin-top: 10px;
-            margin-right: 40px;
-            margin-block-end: 20px;
+            margin-left: 0;
         }
         
-        .card-2 {
-            height: 406px;
-            width: 345px;
-            border: black 1px solid;
-            margin-left: 20px;
-            float: left;
+        .cards-columns {
+            display: flex;
         }
         
-        .card-3 {
+        .card-column-1 {
+            width: 60%;
+            padding: 0px;
+            margin-top: 20px;
+        }
+        
+        .card-column-2 {
+            width: 40%;
+            padding: 20px;
+            padding-right: 0px;
+            margin-right: 0px;
+        }
+        
+        .child-1 {
+            background-color: grey;
+            height: 350px;
+        }
+        
+        .child-2 {
+            background-color: lightblue;
             height: 250px;
-            width: 345px;
-            border: black 1px solid;
-            margin-left: 20px;
-            float: left;
+            margin-top: 20px;
         }
         
-        .card-4 {
+        .child-3 {
+            background-color: grey;
+            height: 250px;
+        }
+        
+        .child-4 {
+            background-color: lightblue;
+            height: 430px;
+            margin-top: 20px;
+        }
+        
+        .child-5 {
+            background-color: lightblue;
+            height: 350px;
+            margin-top: 20px;
+        }
+        
+        .child-6 {
+            background-color: lightblue;
             height: 270px;
-            width: 345px;
-            border: black 1px solid;
-            margin-left: 20px;
+            margin-top: 20px;
         }
     </style>
 </head>
 
 <body>
-    <div class="parent menu">
+    <div class="layout">
         <aside>
-            <p>Home</p>
-            <p>Works</p>
-            <p>About me</p>
-            <p>Contacts</p>
+            <p class="menu-style">Home</p>
+            <p class="menu-style">Works</p>
+            <p class="menu-style">About me</p>
+            <p class="menu-style">Contacts</p>
         </aside>
-        <div class="card-container">
-            <div class="col card-1"></div>
-            <div class="col card-2"></div>
-            <div class="col card-3"></div>
-            <div class="col card-4"></div>
+        <div class="content-box">
+            <div class="big-card">
+            </div>
+            <div class="cards-columns">
+                <div class="card-column-1">
+                    <div class="child-1"></div>
+                    <div class="child-2"></div>
+                    <div class="child-5"></div>
 
+                </div>
+                <div class="card-column-2">
+                    <div class="child-3"></div>
+                    <div class="child-4"></div>
+                    <div class="child-6"></div>
+                </div>
+            </div>
 
-
-        </div>
-
-
-
-
-    </div>
-    </div>
-    </div>
 </body>
 
 </html>
