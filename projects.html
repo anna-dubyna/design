@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        s body {
+            margin: 0 auto;
+            padding: 0;
+            background-color: white;
+        }
+        
+        aside {
+            position: left;
+            width: 20%;
+            height: 1500px;
+            top: 0px;
+            padding: 40px;
+            border: solid 1px currentColor;
+            background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
+        }
+        
+        .layout {
+            display: flex;
+            min-height: 100vh;
+        }
+        
+        .content-box {
+            width: 80%;
+            padding-left: 110px;
+            padding-right: 110px;
+            padding-top: 50px;
+        }
+        
+        .big-card {
+            background-color: darkgreen;
+            height: 270px;
+            margin-left: 0;
+        }
+        
+        .cards-columns {
+            display: flex;
+        }
+        
+        .card-column-1 {
+            width: 60%;
+            padding: 0px;
+            margin-top: 20px;
+        }
+        
+        .card-column-2 {
+            width: 40%;
+            padding: 20px;
+            padding-right: 0px;
+            margin-right: 0px;
+        }
+        
+        .child-1 {
+            background-color: grey;
+            height: 350px;
+        }
+        
+        .child-2 {
+            background-color: lightblue;
+            height: 250px;
+            margin-top: 20px;
+        }
+        
+        .child-3 {
+            background-color: grey;
+            height: 250px;
+        }
+        
+        .child-4 {
+            background-color: lightblue;
+            height: 430px;
+            margin-top: 20px;
+        }
+        
+        .child-5 {
+            background-color: lightblue;
+            height: 350px;
+            margin-top: 20px;
+        }
+        
+        .child-6 {
+            background-color: lightblue;
+            height: 270px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="layout">
+        <aside>
+            <p>Home</p>
+            <p>Works</p>
+            <p>About me</p>
+            <p>Contacts</p>
+        </aside>
+        <div class="content-box">
+            <div class="big-card">
+            </div>
+            <div class="cards-columns">
+                <div class="card-column-1">
+                    <div class="child-1"></div>
+                    <div class="child-2"></div>
+                    <div class="child-5"></div>
+
+                </div>
+                <div class="card-column-2">
+                    <div class="child-3"></div>
+                    <div class="child-4"></div>
+                    <div class="child-6"></div>
+                </div>
+            </div>
+
+</body>
+
+</html>
