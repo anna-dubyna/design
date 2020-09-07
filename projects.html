@@ -4,110 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/stylesforportf.css" />
+    <link rel="stylesheet" href="assets/stylesforprojects.css" />
     <title>Document</title>
-    <style>
-        body {
-            margin: 0 auto;
-            padding: 0;
-            background-color: white;
-        }
-        
-        aside {
-            position: left;
-            width: 20%;
-            height: 1500px;
-            top: 0px;
-            padding: 40px;
-            border: solid 1px currentColor;
-            background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
-        }
-        
-        .menu-style {
-            color: white;
-        }
-        
-        .layout {
-            display: flex;
-            min-height: 100vh;
-        }
-        
-        .content-box {
-            width: 80%;
-            padding-left: 110px;
-            padding-right: 110px;
-            padding-top: 50px;
-        }
-        
-        .big-card {
-            background-color: darkgreen;
-            height: 270px;
-            margin-left: 0;
-        }
-        
-        .cards-columns {
-            display: flex;
-        }
-        
-        .card-column-1 {
-            width: 60%;
-            padding: 0px;
-            margin-top: 20px;
-        }
-        
-        .card-column-2 {
-            width: 40%;
-            padding: 20px;
-            padding-right: 0px;
-            margin-right: 0px;
-        }
-        
-        .child-1 {
-            background-color: grey;
-            height: 350px;
-        }
-        
-        .child-2 {
-            background-color: lightblue;
-            height: 250px;
-            margin-top: 20px;
-        }
-        
-        .child-3 {
-            background-color: grey;
-            height: 250px;
-        }
-        
-        .child-4 {
-            background-color: lightblue;
-            height: 430px;
-            margin-top: 20px;
-        }
-        
-        .child-5 {
-            background-color: lightblue;
-            height: 350px;
-            margin-top: 20px;
-        }
-        
-        .child-6 {
-            background-color: lightblue;
-            height: 270px;
-            margin-top: 20px;
-        }
-    </style>
+
 </head>
 
 <body>
     <div class="layout">
         <aside>
-            <p class="menu-style">Home</p>
-            <p class="menu-style">Works</p>
-            <p class="menu-style">About me</p>
-            <p class="menu-style">Contacts</p>
+            <ul class="vertical-menu hover">
+                <li class="vertical-menu"> Home </li>
+                <li class="vertical-menu">Works</li>
+                <li class="vertical-menu">About me</li>
+                <li class="vertical-menu">Contacts</li>
+            </ul>
+            <p>
+                Works
+            </p>
         </aside>
         <div class="content-box">
             <div class="big-card">
+                <a href="#" class="rollover"> </a>
             </div>
             <div class="cards-columns">
                 <div class="card-column-1">
@@ -122,7 +39,8 @@
                     <div class="child-6"></div>
                 </div>
             </div>
-
+        </div>
+    </div>
 </body>
 
 </html>
