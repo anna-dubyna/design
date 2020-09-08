@@ -228,3 +228,19 @@ p.cite {
     text-transform: capitalize;
     color: #999999;
 }
+
+.phrase {
+    position: absolute;
+    width: 253px;
+    height: 70px;
+    left: 797px;
+    top: 164px;
+    font-family: Acumin Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #0A2429;
+}
