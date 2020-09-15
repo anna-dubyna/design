@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *,
+        *::after *::before {
+            box-sizing: border-box;
+        }
+        
+        .grid {
+            display: flex;
+        }
+        
+        .col-1 {
+            width: calc(1 / 5 * 100%);
+        }
+        
+        .col-2 {
+            width: calc(2 / 5 * 100%);
+        }
+        
+        .col-3 {
+            width: calc(3/5*100%);
+        }
+        
+        .col-4 {
+            width: calc(4/5*100%);
+        }
+        
+        .col-5 {
+            width: calc(5/5*100%);
+        }
+        
+        .col+.col {
+            border-left: 1px solid black;
+        }
+        
+        .col {
+            height: 100vh;
+        }
+        
+        .image {
+            width: 100%;
+            padding: 0 calc(85/575*100%);
+        }
+        
+        .grid+.grid {
+            margin-top: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="col-2 col">
+            <img class="image" src="assets/img/img3.jpg" alt="">
+        </div>
+        <div class="col-1 col"></div>
+        <div class="col-2 col">
+            <img class="image" src="assets/img/img3.jpg" alt="">
+        </div>
+
+    </div>
+    <div class="grid">
+        <div class="col-2 col">
+        </div>
+        <div class="col-3 col"> <img class="image" src="assets/img/img2.jpg" alt=""></div>
+        <div class="col-2 col">
+        </div>
+    </div>
+
+</body>
+
+</html>

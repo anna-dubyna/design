@@ -89,6 +89,7 @@ aside {
     width: 20%;
     height: 700px;
     top: 0px;
+    left: 0px;
     padding: 40px;
     border: solid 1px currentColor;
     background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
@@ -110,13 +111,12 @@ aside {
 }
 
 .layout {
-    display: flex;
     min-height: 100vh;
+    justify-content: flex-end;
 }
 
 .content-box {
     width: 80%;
-    margin-left: 30%;
     height: auto;
     top: 0px;
     background: linear-gradient(270.11deg, #A7A8A9 0.1%, rgba(255, 255, 255, 0.99) 98.51%);
@@ -183,8 +183,10 @@ p.beh {
 
 .imgfirst {
     position: absolute;
-    width: 592px;
-    height: 532px;
-    left: 935px;
-    top: -67px;
+    position: absolute;
+    width: 485.85px;
+    height: 456px;
+    left: 629px;
+    right: 37;
+    margin-top: 103;
 }
