@@ -78,10 +78,11 @@
     font-display: swap;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 body {
     margin: 0 auto;
     padding: 0;
-    background-color: white;
+    /*background-color: white;*/
 }
 
 aside {
@@ -112,14 +113,15 @@ aside {
 
 .layout {
     min-height: 100vh;
-    justify-content: flex-end;
+    justify-content: ce;
 }
 
 .content-box {
-    width: 80%;
-    height: auto;
+    height: 100vh;
     top: 0px;
-    background: linear-gradient(270.11deg, #A7A8A9 0.1%, rgba(255, 255, 255, 0.99) 98.51%);
+    margin-left: 0px;
+    border: 2px solid black;
+    background: linear-gradient(270.11deg, #C7C7C7 30%, rgba(255, 255, 255, 0.99) 70.51%);
 }
 
 p {
@@ -183,10 +185,25 @@ p.beh {
 
 .imgfirst {
     position: absolute;
-    position: absolute;
     width: 485.85px;
     height: 456px;
-    left: 629px;
-    right: 37;
-    margin-top: 103;
+    margin-left: 690px;
+    margin-right: 0px;
+    top: 103px;
+}
+
+.ptext {
+    position: absolute;
+    width: 409px;
+    height: 78px;
+    margin-left: 600px;
+    margin-top: 285px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0A2429;
 }
