@@ -78,18 +78,20 @@
     font-display: swap;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
 body {
     margin: 0 auto;
     padding: 0;
-    background-color: linear-gradient(221.91deg, #D3D3D3 3.88%, #FFFFFF 71.9%);
-    ;
+    /*background-color: white;*/
 }
 
 aside {
     position: fixed;
     width: 20%;
-    height: 100vh;
+    height: 700px;
     top: 0px;
+    left: 0px;
     padding: 40px;
     border: solid 1px currentColor;
     background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
@@ -111,100 +113,21 @@ aside {
 }
 
 .layout {
-    display: flex;
     min-height: 100vh;
-}
-
-.overlay {
-    position: absolute;
-    height: 270px;
-    width: auto;
-}
-
-a.rollover {
-    background: #0A2429 30%;
-    display: block;
-    width: auto;
-    height: 370px;
-    opacity: 0, 3;
-}
-
-a.rollover:hover {
-    background: url(img/1child.jpg);
-    /*background: url(http://placehold.it/720x270);/*
-    /* Путь к файлу с исходным рисунком  */
-    width: auto;
-    height: 370px;
+    justify-content: ce;
 }
 
 .content-box {
-    width: 73%;
-    /*padding-right: 50px;
-    padding-top: 50px;*/
-    padding: 30px;
-    margin-left: 27%;
-    background: linear-gradient(221.91deg, #D3D3D3 3.88%, #FFFFFF 71.9%);
-}
-
-.big-card {
-    height: 370px;
-    width: 100h;
-    margin-left: 0;
-}
-
-.cards-columns {
-    display: flex;
-}
-
-.card-column-1 {
-    width: 60%;
-    padding: 0px;
-    margin-top: 20px;
-}
-
-.card-column-2 {
-    width: 40%;
-    padding: 20px;
-    padding-right: 0px;
-    margin-right: 0px;
-}
-
-.child-1 {
-    background-color: #0A2429;
-    height: 350px;
-}
-
-.child-2 {
-    background-color: #0A2429;
-    height: 250px;
-    margin-top: 20px;
-}
-
-.child-3 {
-    background-color: #0A2429;
-    height: 250px;
-}
-
-.child-4 {
-    background-color: #0A2429;
-    height: 430px;
-    margin-top: 20px;
-}
-
-.child-5 {
-    background-color: #0A2429;
-    height: 350px;
-    margin-top: 20px;
-}
-
-.child-6 {
-    background-color: #0A2429;
-    height: 270px;
-    margin-top: 20px;
+    height: 100vh;
+    top: 0px;
+    margin-left: 0px;
+    /*border: 2px solid black;*/
+    background-image: linear-gradient(30deg, #ffffff, #e5e1e1, #ccc3c4, #c4bdbed7)
+    /*linear-gradient(270.11deg, #C7C7C7 0.3%, rgba(255, 255, 255, 0.5) 50.51%);*/
 }
 
 p {
-    font-family: 'MADE Coachella';
+    font-family: 'Lato', sans-serif;
     color: white;
     font-style: normal;
     font-weight: normal;
@@ -232,27 +155,97 @@ p.cite {
     color: #999999;
 }
 
-.phrase {
+p.inst {
     position: absolute;
-    width: 253px;
-    height: 70px;
-    left: 797px;
-    top: 164px;
+    width: 155px;
+    height: 34px;
+    left: 40px;
+    top: 624px;
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #F5F2F2;
+}
+
+p.beh {
+    position: absolute;
+    width: 104px;
+    height: 19px;
+    left: 41px;
+    top: 654px;
     font-family: Acumin Pro;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
     text-transform: capitalize;
+    color: #F5F2F2;
+}
+
+.imgfirst {
+    position: absolute;
+    width: 485.85px;
+    height: 456px;
+    right: 65px;
+    top: 136px;
+}
+
+.ptext {
+    position: absolute;
+    width: 409px;
+    height: 78px;
+    right: 173px;
+    margin-top: 315px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
     color: #0A2429;
 }
 
-
-/*.convert {
+.buttonconvert {
     position: absolute;
     width: 50px;
     height: 50px;
-    right: -42px;
-    top: 50px;
-}*/
+    right: 40px;
+    top: 58px;
+}
+
+.buttonportfolio {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 40px;
+    top: 624px;
+}
+
+.buttontextcont {
+    position: absolute;
+    width: 70px;
+    height: 23px;
+    right: 100px;
+    top: 72px;
+    font-family: Acumin Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #343434;
+}
+
+.buttontextportf {
+    position: absolute;
+    height: 23px;
+    right: 100px;
+    top: 639px;
+    font-family: Acumin Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #343434;
+}
