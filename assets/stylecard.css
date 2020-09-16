@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('fonts/AcuminPro-Regular.woff2') format('woff2'), url('fonts/AcuminPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('fonts/AcuminPro-Bold.woff2') format('woff2'), url('fonts/AcuminPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('fonts/AcuminPro-Italic.woff2') format('woff2'), url('fonts/AcuminPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Acumin Pro';
+    src: url('fonts/AcuminPro-Italic.woff2') format('woff2'), url('fonts/AcuminPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Coachella';
+    src: url('fonts/madecouchrlla/MADECoachella-Black.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Coachella';
+    src: url('fonts/madecouchrlla/MADECoachella-Bold.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Coachella';
+    src: url('fonts/madecouchrlla/MADECoachella-Thin.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Coachella';
+    src: url('fonts/madecouchrlla/MADECoachella-Medium.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Coachella';
+    src: url('fonts/madecouchrlla/MADECoachella.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MADE Coachella';
+    src: url('fonts/madecouchrlla/MADECoachella-Light.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: linear-gradient(252.72deg, #B8B8B8 10.1%, rgba(255, 255, 255, 0.99) 69.61%);
+    /*background-color: white;*/
+}
+
+aside {
+    position: fixed;
+    width: 20%;
+    height: 700px;
+    top: 0px;
+    left: 0px;
+    padding: 40px;
+    border: solid 1px currentColor;
+    background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
+}
+
+.vertical-menu {
+    color: white;
+    font-family: 'Acumin Pro';
+    display: block;
+    width: 100px;
+    left: 40px;
+    top: 50px;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.vertical-menu :hover {
+    color: #135c3a;
+}
+
+.layout {
+    min-height: 100vh;
+    justify-content: ce;
+}
+
+.content-box {
+    height: 100vh;
+    top: 0px;
+    margin-left: 0px;
+    /*border: 2px solid black;*/
+}
+
+.pp {
+    position: absolute;
+    width: 364px;
+    height: 317px;
+    top: 166px;
+    right: 90px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.pworks {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 62px;
+    position: absolute;
+    width: 222px;
+    height: 67px;
+    left: 40px;
+    top: 250px;
+}
+
+.pcite {
+    position: absolute;
+    width: 214px;
+    height: 48px;
+    left: 40px;
+    top: 350px;
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 29px;
+    /* text-transform: capitalize; */
+    color: #999999;
+}
+
+p.inst {
+    position: absolute;
+    width: 155px;
+    height: 34px;
+    left: 40px;
+    top: 624px;
+    font-family: 'Acumin Pro';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #F5F2F2;
+}
+
+p.beh {
+    position: absolute;
+    width: 104px;
+    height: 19px;
+    left: 41px;
+    top: 654px;
+    font-family: Acumin Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: capitalize;
+    color: #F5F2F2;
+}
+
+.imgfirst {
+    position: absolute;
+    width: 344px;
+    height: 356px;
+    /*right: 491px*/
+    left: 465px;
+    top: 166px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #6E6F70 100%);
+}
+
+.ptext {
+    position: absolute;
+    width: 409px;
+    height: 78px;
+    left: 573px;
+    margin-top: 315px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0A2429;
+}
+
+.buttoncontact {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 40px;
+    top: 58px;
+}
+
+.buttonportfolio {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 40px;
+    top: 624px;
+}
+
+.buttontextcont {
+    position: absolute;
+    width: 70px;
+    height: 23px;
+    right: 100px;
+    top: 72px;
+    font-family: Acumin Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #343434;
+}
+
+.buttontextportf {
+    position: absolute;
+    height: 23px;
+    right: 100px;
+    top: 639px;
+    font-family: Acumin Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #343434;
+}
