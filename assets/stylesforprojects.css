@@ -250,3 +250,16 @@ p.beh {
     font-size: 18px;
     color: #343434;
 }
+
+a,
+a:visited {
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
