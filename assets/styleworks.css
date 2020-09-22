@@ -185,7 +185,7 @@ aside {
 }
 
 .child-1 {
-    background-color: #0A2429;
+    background: url(img/wearedrop.jpg);
     height: 350px;
 }
 
@@ -276,12 +276,16 @@ a:hover {
     text-decoration: underline;
 }
 
-img.animate1 {
-    filter: alpha (Opacity=25);
+img.animate2 {
+    filter: alpha(Opacity=50);
+    /* Полупрозрачность для IE */
     opacity: 0.25;
+    /* Полупрозрачность для других браузеров */
 }
 
-img.animate1:hover {
-    filter: alpha (Opacity=100);
+img.animate2:hover {
+    filter: alpha(Opacity=100);
+    /* Полупрозрачность для IE */
     opacity: 1;
+    /* Полупрозрачность для других браузеров */
 }
