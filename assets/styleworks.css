@@ -120,22 +120,6 @@ aside {
     width: auto;
 }
 
-a.rollover {
-    background: #0A2429 30%;
-    display: block;
-    width: auto;
-    height: 370px;
-    opacity: 0, 3;
-}
-
-a.rollover:hover {
-    background: url(img/1child.jpg);
-    /*background: url(http://placehold.it/720x270);/*
-    /* Путь к файлу с исходным рисунком  */
-    width: auto;
-    height: 370px;
-}
-
 .content-box {
     width: 73%;
     padding: 30px;
@@ -154,15 +138,33 @@ a.rollover:hover {
     position: relative;
 }
 
+.text-card {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    color: white;
+}
+
 .change-colors-on-hover {
-    background-color: blue;
-    color: yellow;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: #0A2429;
+    color: white;
+    transition: background-color 0.5s ease, color 0.3s ease;
 }
 
 .change-colors-on-hover:hover {
-    background-color: red;
-    color: black;
+    background: url(img/work1.png);
+    background-size: contain;
+}
+
+.change-colors-on-hover1:hover {
+    background: url(img/img2.jpg);
+}
+
+.change-colors-on-hover2:hover {
+    background: url(img/img3.jpg);
 }
 
 .cards-columns {
@@ -261,15 +263,6 @@ p.cite {
     color: #0A2429;
 }
 
-
-/*.convert {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    right: -42px;
-    top: 50px;
-}*/
-
 a,
 a:visited {
     color: inherit;
@@ -281,4 +274,14 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+img.animate1 {
+    filter: alpha (Opacity=25);
+    opacity: 0.25;
+}
+
+img.animate1:hover {
+    filter: alpha (Opacity=100);
+    opacity: 1;
 }
