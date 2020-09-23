@@ -297,3 +297,50 @@ a:hover {
         box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
     }
 }
+
+@keyframes anime {
+    0% {
+        color: white;
+    }
+    20% {
+        color: #405DE6;
+    }
+    35% {
+        color: #5851DB;
+    }
+    55% {
+        color: #833AB4;
+    }
+    65% {
+        color: #E1306C;
+    }
+    75% {
+        color: #FD1D1D;
+    }
+    100% {
+        color: #F77737;
+    }
+}
+
+.animinst {
+    animation: anime infinite 2s linear;
+}
+
+@keyframes animebeh {
+    0% {
+        color: white;
+    }
+    20% {
+        color: #053eff;
+    }
+    50% {
+        color: white;
+    }
+    100% {
+        color: #053eff;
+    }
+}
+
+.animebeh {
+    animation: animebeh infinite 2s linear;
+}

@@ -276,12 +276,20 @@ a:hover {
     text-decoration: underline;
 }
 
-img.animate1 {
+.img-animatel {
     filter: alpha (Opacity=25);
     opacity: 0.25;
+    -moz-transition: all 1s ease-in-out;
+    /* эффект перехода для Firefox до версии 16.0 */
+    -webkit-transition: all 1s ease-in-out;
+    /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+    -o-transition: all 1s ease-in-out;
+    /* эффект перехода для Opera до версии 12.10 */
+    transition: all 1s ease-in-out;
+    /* эффект перехода для других браузеров */
 }
 
-img.animate1:hover {
+.img-animatel:hover {
     filter: alpha (Opacity=100);
     opacity: 1;
 }
