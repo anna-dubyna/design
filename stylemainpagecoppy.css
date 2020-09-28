@@ -178,6 +178,8 @@
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
         vertical-align: baseline;
+        margin: 40px 26px;
+        right: 20px;
     }
     
     .home {
@@ -307,14 +309,12 @@
         height: 92px;
         left: 200px;
         margin-top: 195px;
-        margin-left: 200px;
+        margin-left: 20px;
     }
     
     .circle {
-        position: absolute;
-        top: 254px;
-        right: 239px;
-        box-sizing: border-box;
+        margin-top: 254px;
+        margin-left: 120px;
     }
     
     .line {
@@ -347,9 +347,6 @@
     }
     
     .btn {
-        position: absolute;
-        left: 338px;
-        top: 300px;
         width: 125px;
         height: 41px;
         cursor: pointer;
@@ -363,11 +360,11 @@
         outline: none;
         box-sizing: border-box;
         border-radius: 30px;
-        justify-content: center;
-        align-items: center;
         display: inline-block;
         vertical-align: middle;
         text-align: center;
+        margin-left: 15px;
+        margin-top: 15px;
     }
     
     .btn:hover {
