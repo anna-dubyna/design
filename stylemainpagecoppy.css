@@ -312,6 +312,8 @@
     }
     
     .circle {
+        display: flex;
+        flex-direction: column;
         margin-top: 254px;
         margin-left: 120px;
     }
