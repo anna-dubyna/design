@@ -97,6 +97,58 @@
             background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
         }
         
+        .menu__btn {
+            display: flex;
+            /* используем flex для центрирования содержимого */
+            align-items: center;
+            /* центрируем содержимое кнопки */
+            position: fixed;
+            top: 40px;
+            left: 40px;
+            width: 26px;
+            height: 26px;
+            cursor: pointer;
+            z-index: 1;
+            display: none;
+        }
+        
+        @media (max-width: 375px) {
+            .menu__btn {
+                display: flex;
+                /* используем flex для центрирования содержимого */
+                align-items: center;
+                /* центрируем содержимое кнопки */
+                position: fixed;
+                top: 60px;
+                left: 40px;
+                width: 26px;
+                height: 26px;
+                cursor: pointer;
+                z-index: 1;
+                display: block;
+            }
+        }
+        
+        .menu__btn>span,
+        .menu__btn>span::before,
+        .menu__btn>span::after {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #616161;
+        }
+        
+        .menu__btn>span::before {
+            content: '';
+            top: -8px;
+        }
+        
+        .menu__btn>span::after {
+            content: '';
+            top: 8px;
+        }
+        
         .vertical-menu {
             color: white;
             font-family: 'Acumin Pro';
@@ -217,141 +269,306 @@
             top: 58px;
         }
         
-        .buttonportfolio {
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            right: 40px;
-            top: 624px;
-        }
-        
-        .buttontextcont {
-            position: absolute;
-            width: 70px;
-            height: 23px;
-            right: 100px;
-            top: 72px;
-            font-family: Acumin Pro;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            color: #343434;
-        }
-        
-        .buttontextportf {
-            position: absolute;
-            height: 23px;
-            right: 100px;
-            top: 639px;
-            font-family: Acumin Pro;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            color: #343434;
-        }
-        
-        a,
-        a:visited {
-            color: inherit;
-        }
-        
-        a {
-            text-decoration: none;
-        }
-        
-        a:hover {
-            text-decoration: underline;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        
-        .pulse {
-            display: flex;
-            color: gray;
-            /*background: white;*/
-            border-radius: 50%;
-            animation: radial-pulse 1s infinite;
-            position: absolute;
-            width: 50px;
-            height: 50px;
-            right: 40px;
-            top: 624px;
-        }
-        
-        .wrapper {
-            width: 100%;
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        @keyframes radial-pulse {
-            0% {
-                box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
+        @media (max-width: 375px) {
+            .buttoncontact {
+                position: absolute;
+                right: 35px;
+                top: 30px;
             }
-            100% {
-                box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
+            .buttonportfolio {
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                right: 40px;
+                top: 624px;
             }
-        }
-        
-        @keyframes anime {
-            0% {
-                color: white;
-            }
-            20% {
-                color: #405DE6;
-            }
-            35% {
-                color: #5851DB;
-            }
-            55% {
-                color: #833AB4;
-            }
-            65% {
-                color: #E1306C;
-            }
-            75% {
-                color: #FD1D1D;
-            }
-            100% {
-                color: #F77737;
-            }
-        }
-        
-        .animinst {
-            animation: anime infinite 2s linear;
-        }
-        
-        @keyframes animebeh {
-            0% {
-                color: white;
-            }
-            20% {
-                color: #053eff;
-            }
-            50% {
-                color: white;
-            }
-            100% {
-                color: #053eff;
-            }
-        }
-        
-        .animebeh {
-            animation: animebeh infinite 2s linear;
-        }
-        
-        html {
-            font-size: calc(10/1152*100vw);
-        }
-        
-        @media screen and (min-width: 830px) {
-            .content-box {
+            .buttontextcont {
+                position: absolute;
+                width: 70px;
+                height: 23px;
+                right: 100px;
+                top: 72px;
+                font-family: Acumin Pro;
+                font-style: normal;
+                font-weight: normal;
                 font-size: 18px;
-                color: red;
+                color: #343434;
+            }
+            .buttontextportf {
+                position: absolute;
+                height: 23px;
+                right: 100px;
+                top: 639px;
+                font-family: Acumin Pro;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 18px;
+                color: #343434;
+            }
+            a,
+            a:visited {
+                color: inherit;
+            }
+            a {
+                text-decoration: none;
+            }
+            a:hover {
+                text-decoration: underline;
+            }
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .pulse {
+                display: flex;
+                color: grey;
+                /*background: white;*/
+                border-radius: 50%;
+                animation: radial-pulse 1s infinite;
+                position: absolute;
+                width: 50px;
+                height: 50px;
+                right: 40px;
+                top: 624px;
+            }
+            .wrapper {
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            @keyframes radial-pulse {
+                0% {
+                    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.5);
+                }
+                100% {
+                    box-shadow: 0 0 0 40px rgba(0, 0, 0, 0);
+                }
+            }
+            @keyframes anime {
+                0% {
+                    color: white;
+                }
+                20% {
+                    color: #405DE6;
+                }
+                35% {
+                    color: #5851DB;
+                }
+                55% {
+                    color: #833AB4;
+                }
+                65% {
+                    color: #E1306C;
+                }
+                75% {
+                    color: #FD1D1D;
+                }
+                100% {
+                    color: #F77737;
+                }
+            }
+            .animinst {
+                animation: anime infinite 2s linear;
+            }
+            @keyframes animebeh {
+                0% {
+                    color: white;
+                }
+                20% {
+                    color: #053eff;
+                }
+                50% {
+                    color: white;
+                }
+                100% {
+                    color: #053eff;
+                }
+            }
+            .animebeh {
+                animation: animebeh infinite 2s linear;
+            }
+            html {
+                font-size: calc(10/1152*100vw);
+            }
+            @media (max-width: 375px) {
+                .ptext {
+                    display: none;
+                }
+                .imgfirst {
+                    display: none;
+                }
+                aside {
+                    position: fixed;
+                    width: 100%;
+                    background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
+                }
+                ul.vertical-menu {
+                    display: none;
+                }
+                .vertical-menu :hover {
+                    color: #135c3a;
+                    display: none;
+                }
+                p {
+                    font-size: 36px;
+                    width: 125px;
+                    display: flex;
+                    left: 110px;
+                    top: 150px;
+                    /* используем flex для центрирования содержимого */
+                    align-items: center;
+                }
+                p.cite {
+                    position: absolute;
+                    width: 125px;
+                    height: 48px;
+                    left: 0px;
+                    font-family: 'Acumin Pro';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 29px;
+                    text-transform: capitalize;
+                    color: #999999;
+                }
+                p.inst {
+                    position: absolute;
+                    width: 155px;
+                    height: 34px;
+                    left: 40px;
+                    top: 624px;
+                    font-family: 'Acumin Pro';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    color: #F5F2F2;
+                }
+                p.beh {
+                    position: absolute;
+                    width: 104px;
+                    height: 19px;
+                    left: 41px;
+                    top: 654px;
+                    font-family: Acumin Pro;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 12px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    color: #F5F2F2;
+                }
+                .buttontextcont {
+                    font-size: 12px;
+                    color: #343434;
+                    top: 48px;
+                }
+                .buttontextportf {
+                    font-size: 12px;
+                    color: #343434;
+                }
+                .menu__btn {
+                    display: flex;
+                    /* используем flex для центрирования содержимого */
+                    align-items: center;
+                    /* центрируем содержимое кнопки */
+                    position: fixed;
+                    top: 40px;
+                    left: 40px;
+                    width: 26px;
+                    height: 26px;
+                    cursor: pointer;
+                    z-index: 1;
+                    display: block;
+                }
+            }
+            @media (max-width: 768px) {
+                .ptext {
+                    position: absolute;
+                    right: 122px;
+                    margin-top: 315px;
+                    font-family: 'Lato', sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 29px;
+                    text-align: center;
+                    text-transform: uppercase;
+                    color: #0A2429;
+                }
+                .imgfirst {
+                    position: absolute;
+                    width: 50%;
+                    height: 55%;
+                    right: 83px;
+                    top: 150px;
+                }
+                .vertical-menu {
+                    color: white;
+                    font-family: 'Acumin Pro';
+                    display: block;
+                    width: 100px;
+                    left: 40px;
+                    top: 50px;
+                    padding: 5px;
+                    font-size: 16px;
+                }
+                p {
+                    font-size: 36px;
+                    width: 125px;
+                }
+                p.cite {
+                    position: absolute;
+                    width: 125px;
+                    height: 48px;
+                    left: 40px;
+                    top: 320px;
+                    font-family: 'Acumin Pro';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 18px;
+                    line-height: 29px;
+                    text-transform: capitalize;
+                    color: #999999;
+                }
+                p.inst {
+                    position: absolute;
+                    width: 155px;
+                    height: 34px;
+                    left: 40px;
+                    top: 624px;
+                    font-family: 'Acumin Pro';
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    color: #F5F2F2;
+                }
+                p.beh {
+                    position: absolute;
+                    width: 104px;
+                    height: 19px;
+                    left: 41px;
+                    top: 654px;
+                    font-family: Acumin Pro;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 16px;
+                    line-height: 22px;
+                    text-transform: capitalize;
+                    color: #F5F2F2;
+                }
+                .buttontextcont {
+                    font-size: 16px;
+                    color: #343434;
+                }
+                .buttontextportf {
+                    font-size: 16px;
+                    color: #343434;
+                }
             }
         }
