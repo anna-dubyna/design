@@ -112,9 +112,24 @@ aside {
     color: #135c3a;
 }
 
+.menu__btn {
+    display: flex;
+    /* используем flex для центрирования содержимого */
+    align-items: center;
+    /* центрируем содержимое кнопки */
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+    display: none;
+}
+
 .layout {
     min-height: 100vh;
-    justify-content: ce;
+    justify-content: center;
 }
 
 .content-box {

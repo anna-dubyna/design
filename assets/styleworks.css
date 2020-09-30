@@ -1,295 +1,477 @@
-@font-face {
-    font-family: 'Acumin Pro';
-    src: url('fonts/AcuminPro-Regular.woff2') format('woff2'), url('fonts/AcuminPro-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Acumin Pro';
-    src: url('fonts/AcuminPro-Bold.woff2') format('woff2'), url('fonts/AcuminPro-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Acumin Pro';
-    src: url('fonts/AcuminPro-Italic.woff2') format('woff2'), url('fonts/AcuminPro-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Acumin Pro';
-    src: url('fonts/AcuminPro-Italic.woff2') format('woff2'), url('fonts/AcuminPro-BoldItalic.woff') format('woff');
-    font-weight: bold;
-    font-style: italic;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'MADE Coachella';
-    src: url('fonts/madecouchrlla/MADECoachella-Black.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'MADE Coachella';
-    src: url('fonts/madecouchrlla/MADECoachella-Bold.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'MADE Coachella';
-    src: url('fonts/madecouchrlla/MADECoachella-Thin.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella-Thin.woff') format('woff');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'MADE Coachella';
-    src: url('fonts/madecouchrlla/MADECoachella-Medium.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'MADE Coachella';
-    src: url('fonts/madecouchrlla/MADECoachella.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'MADE Coachella';
-    src: url('fonts/madecouchrlla/MADECoachella-Light.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
-}
-
-body {
-    margin: 0 auto;
-    padding: 0;
-    background-color: linear-gradient(221.91deg, #D3D3D3 3.88%, #FFFFFF 71.9%);
-}
-
-aside {
-    position: fixed;
-    width: 20%;
-    height: 100vh;
-    top: 0px;
-    padding: 40px;
-    border: solid 1px currentColor;
-    background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
-}
-
-.vertical-menu {
-    color: white;
-    font-family: 'Acumin Pro';
-    display: block;
-    width: 100px;
-    left: 40px;
-    top: 50px;
-    padding: 5px;
-    font-size: 18px;
-}
-
-.vertical-menu :hover {
-    color: yellow;
-}
-
-.layout {
-    display: flex;
-    min-height: 100vh;
-}
-
-.overlay {
-    position: absolute;
-    height: 270px;
-    width: auto;
-}
-
-.content-box {
-    width: 73%;
-    padding: 30px;
-    margin-left: 25.7%;
-}
-
-.big-card {
-    height: 370px;
-    width: 100h;
-    margin-left: 0;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-}
-
-.text-card {
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    color: white;
-}
-
-.change-colors-on-hover {
-    background-color: #0A2429;
-    color: white;
-    transition: background-color 0.5s ease, color 0.3s ease;
-}
-
-.change-colors-on-hover:hover {
-    background: url(img/work1.png);
-    background-size: contain;
-}
-
-.change-colors-on-hover1:hover {
-    background: url(img/img2.jpg);
-}
-
-.change-colors-on-hover2:hover {
-    background: url(img/img3.jpg);
-}
-
-.cards-columns {
-    display: flex;
-}
-
-.card-column-1 {
-    width: 60%;
-    padding: 0px;
-    margin-top: 20px;
-}
-
-.card-column-2 {
-    width: 40%;
-    padding: 20px;
-    padding-right: 0px;
-    margin-right: 0px;
-}
-
-.child-1 {
-    background: url(img/wearedrop.jpg);
-    height: 350px;
-}
-
-.child-2 {
-    background-color: #0A2429;
-    height: 250px;
-    margin-top: 20px;
-}
-
-.child-3 {
-    background-color: #0A2429;
-    height: 250px;
-}
-
-.child-4 {
-    background-color: #0A2429;
-    height: 430px;
-    margin-top: 20px;
-}
-
-.child-5 {
-    background-color: #0A2429;
-    height: 350px;
-    margin-top: 20px;
-}
-
-.child-6 {
-    background-color: #0A2429;
-    height: 270px;
-    margin-top: 20px;
-}
-
-p {
-    font-family: 'MADE Coachella';
-    color: white;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 62px;
-    position: absolute;
-    width: 222px;
-    height: 67px;
-    left: 40px;
-    top: 250px;
-}
-
-p.cite {
-    position: absolute;
-    width: 214px;
-    height: 48px;
-    left: 40px;
-    top: 350px;
-    font-family: 'Acumin Pro';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 29px;
-    text-transform: capitalize;
-    color: #999999;
-}
-
-.phrase {
-    position: absolute;
-    width: 253px;
-    height: 70px;
-    left: 797px;
-    top: 164px;
-    font-family: Acumin Pro;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    text-transform: capitalize;
-    color: #0A2429;
-}
-
-a,
-a:visited {
-    color: inherit;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-.img-animatel {
-    filter: alpha (Opacity=25);
-    opacity: 0.25;
-    -moz-transition: all 1s ease-in-out;
-    /* эффект перехода для Firefox до версии 16.0 */
-    -webkit-transition: all 1s ease-in-out;
-    /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
-    -o-transition: all 1s ease-in-out;
-    /* эффект перехода для Opera до версии 12.10 */
-    transition: all 1s ease-in-out;
-    /* эффект перехода для других браузеров */
-}
-
-.img-animatel:hover {
-    filter: alpha (Opacity=100);
-    opacity: 1;
-}
+        @font-face {
+            font-family: 'Acumin Pro';
+            src: url('fonts/AcuminPro-Regular.woff2') format('woff2'), url('fonts/AcuminPro-Regular.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'Acumin Pro';
+            src: url('fonts/AcuminPro-Bold.woff2') format('woff2'), url('fonts/AcuminPro-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'Acumin Pro';
+            src: url('fonts/AcuminPro-Italic.woff2') format('woff2'), url('fonts/AcuminPro-Italic.woff') format('woff');
+            font-weight: normal;
+            font-style: italic;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'Acumin Pro';
+            src: url('fonts/AcuminPro-Italic.woff2') format('woff2'), url('fonts/AcuminPro-BoldItalic.woff') format('woff');
+            font-weight: bold;
+            font-style: italic;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'MADE Coachella';
+            src: url('fonts/madecouchrlla/MADECoachella-Black.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella-Black.woff') format('woff');
+            font-weight: 900;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'MADE Coachella';
+            src: url('fonts/madecouchrlla/MADECoachella-Bold.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'MADE Coachella';
+            src: url('fonts/madecouchrlla/MADECoachella-Thin.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella-Thin.woff') format('woff');
+            font-weight: 100;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'MADE Coachella';
+            src: url('fonts/madecouchrlla/MADECoachella-Medium.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella-Medium.woff') format('woff');
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'MADE Coachella';
+            src: url('fonts/madecouchrlla/MADECoachella.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        @font-face {
+            font-family: 'MADE Coachella';
+            src: url('fonts/madecouchrlla/MADECoachella-Light.woff2') format('woff2'), url('fonts/madecouchrlla/MADECoachella.woff') format('woff');
+            font-weight: 300;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        body {
+            margin: 0 auto;
+            padding: 0;
+            background-color: linear-gradient(221.91deg, #D3D3D3 3.88%, #FFFFFF 71.9%);
+        }
+        
+        aside {
+            position: fixed;
+            width: 20%;
+            height: 100vh;
+            top: 0px;
+            padding: 40px;
+            border: solid 1px currentColor;
+            background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
+        }
+        
+        .menu__btn {
+            display: flex;
+            /* используем flex для центрирования содержимого */
+            align-items: center;
+            /* центрируем содержимое кнопки */
+            position: fixed;
+            top: 40px;
+            left: 40px;
+            width: 26px;
+            height: 26px;
+            cursor: pointer;
+            z-index: 1;
+            display: none;
+        }
+        
+        .menu__btn>span,
+        .menu__btn>span::before,
+        .menu__btn>span::after {
+            display: block;
+            position: absolute;
+            width: 100%;
+            height: 2px;
+            background-color: #616161;
+        }
+        
+        .menu__btn>span::before {
+            content: '';
+            top: -8px;
+        }
+        
+        .menu__btn>span::after {
+            content: '';
+            top: 8px;
+        }
+        
+        .vertical-menu {
+            color: white;
+            font-family: 'Acumin Pro';
+            display: block;
+            width: 100px;
+            left: 40px;
+            top: 50px;
+            padding: 5px;
+            font-size: 18px;
+        }
+        
+        .vertical-menu :hover {
+            color: yellow;
+        }
+        
+        .layout {
+            display: flex;
+            min-height: 100vh;
+        }
+        
+        .overlay {
+            position: absolute;
+            height: 270px;
+            width: auto;
+        }
+        
+        .content-box {
+            width: 73%;
+            padding: 30px;
+            margin-left: 25.7%;
+        }
+        
+        .big-card {
+            height: 370px;
+            /* width: 100vh; */
+            margin-left: 0;
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+        }
+        
+        .text-card {
+            text-transform: uppercase;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            color: white;
+        }
+        
+        .change-colors-on-hover {
+            background-color: #0A2429;
+            color: white;
+            transition: background-color 0.5s ease, color 0.3s ease;
+        }
+        
+        .change-colors-on-hover:hover {
+            background: url(img/work1.png);
+            background-size: contain;
+        }
+        
+        .change-colors-on-hover1:hover {
+            background: url(img/img2.jpg);
+        }
+        
+        .change-colors-on-hover2:hover {
+            background: url(img/img3.jpg);
+        }
+        
+        .cards-columns {
+            display: flex;
+        }
+        
+        .card-column-1 {
+            width: 60%;
+            padding: 0px;
+            margin-top: 20px;
+        }
+        
+        .card-column-2 {
+            width: 40%;
+            padding: 20px;
+            padding-right: 0px;
+            margin-right: 0px;
+        }
+        
+        .child-1 {
+            background: url(img/wearedrop.jpg);
+            height: 350px;
+        }
+        
+        .child-2 {
+            background-color: #0A2429;
+            height: 250px;
+            margin-top: 20px;
+        }
+        
+        .child-3 {
+            background-color: #0A2429;
+            height: 250px;
+        }
+        
+        .child-4 {
+            background-color: #0A2429;
+            height: 430px;
+            margin-top: 20px;
+        }
+        
+        .child-5 {
+            background-color: #0A2429;
+            height: 350px;
+            margin-top: 20px;
+        }
+        
+        .child-6 {
+            background-color: #0A2429;
+            height: 270px;
+            margin-top: 20px;
+        }
+        
+        p {
+            font-family: 'MADE Coachella';
+            color: white;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 48px;
+            line-height: 62px;
+            position: absolute;
+            width: 222px;
+            height: 67px;
+            left: 40px;
+            top: 250px;
+        }
+        
+        p.cite {
+            position: absolute;
+            width: 214px;
+            height: 48px;
+            left: 40px;
+            top: 350px;
+            font-family: 'Acumin Pro';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 29px;
+            text-transform: capitalize;
+            color: #999999;
+        }
+        
+        .phrase {
+            position: absolute;
+            width: 253px;
+            height: 70px;
+            left: 797px;
+            top: 164px;
+            font-family: Acumin Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            text-transform: capitalize;
+            color: #0A2429;
+        }
+        
+        a,
+        a:visited {
+            color: inherit;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .img-animatel {
+            filter: alpha (Opacity=25);
+            opacity: 0.25;
+            -moz-transition: all 1s ease-in-out;
+            /* эффект перехода для Firefox до версии 16.0 */
+            -webkit-transition: all 1s ease-in-out;
+            /* эффект перехода для Chrome до версии 26.0, Safari, Android и iOS */
+            -o-transition: all 1s ease-in-out;
+            /* эффект перехода для Opera до версии 12.10 */
+            transition: all 1s ease-in-out;
+            /* эффект перехода для других браузеров */
+        }
+        
+        .img-animatel:hover {
+            filter: alpha (Opacity=100);
+            opacity: 1;
+        }
+        
+        @media (max-width: 768px) {
+            aside {
+                position: fixed;
+                width: 15%;
+                height: 100vh;
+                top: 0px;
+                padding: 20px;
+                border: solid 1px currentColor;
+                background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
+            }
+            p {
+                font-family: 'MADE Coachella';
+                color: white;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 24px;
+                line-height: 62px;
+                position: absolute;
+                width: 222px;
+                height: 67px;
+                left: 34px;
+                top: 250px;
+            }
+            .vertical-menu {
+                color: white;
+                font-family: 'Acumin Pro';
+                display: block;
+                width: 100px;
+                left: 40px;
+                top: 50px;
+                padding: 5px;
+                font-size: 14px;
+            }
+            .content-box {
+                width: 73%;
+                padding: 30px;
+                margin-left: 19.7%;
+            }
+            .big-card {
+                height: 268px;
+                /* width: 100vh; */
+                margin-left: 0;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                position: relative;
+            }
+        }
+        
+        @media (max-width: 375px) {
+            .vertical-menu {
+                color: white;
+                font-family: 'Acumin Pro';
+                display: none;
+                width: 100px;
+                left: 40px;
+                top: 50px;
+                padding: 5px;
+                font-size: 18px;
+            }
+            .vertical-menu :hover {
+                color: yellow;
+                display: none;
+            }
+            p {
+                font-family: 'MADE Coachella';
+                color: white;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 62px;
+                position: absolute;
+                width: 222px;
+                height: 67px;
+                left: 34px;
+                top: 250px;
+            }
+            .menu__btn {
+                display: flex;
+                /* используем flex для центрирования содержимого */
+                align-items: center;
+                /* центрируем содержимое кнопки */
+                position: fixed;
+                top: 40px;
+                left: 40px;
+                width: 26px;
+                height: 26px;
+                cursor: pointer;
+                z-index: 1;
+                display: block;
+            }
+            .big-card {
+                height: 183px;
+                /* width: 100vh; */
+                margin-left: 0;
+                text-transform: uppercase;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                position: relative;
+            }
+            .cards-columns {
+                flex-direction: column;
+            }
+            .card-column-1 {
+                width: 100%;
+                padding: 0px;
+                margin-top: 10px;
+            }
+            .card-column-2 {
+                width: 100%;
+                padding: 0px;
+                margin-top: 10px;
+            }
+            .child-1 {
+                background: url(img/wearedrop.jpg);
+                height: 200px;
+            }
+            .child-2 {
+                background-color: #0A2429;
+                height: 200px;
+                margin-top: 10px;
+            }
+            .child-3 {
+                background-color: #0A2429;
+                height: 200px;
+            }
+            .child-4 {
+                background-color: #0A2429;
+                height: 200px;
+                margin-top: 10px;
+            }
+            .child-5 {
+                background-color: #0A2429;
+                height: 200px;
+                margin-top: 10px;
+            }
+            .child-6 {
+                background-color: #0A2429;
+                height: 200px;
+                margin-top: 10px;
+            }
+        }
