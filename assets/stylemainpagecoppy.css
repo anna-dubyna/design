@@ -1,410 +1,411 @@
-    @font-face {
-        font-family: 'Monument Grotesk';
-        src: url('MonumentGrotesk-Bold.eot');
-        src: local('Monument Grotesk Bold'), local('MonumentGrotesk-Bold'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.ttf') format('truetype');
-        font-weight: bold;
-        font-style: normal;
-    }
-    
-    @font-face {
-        font-family: 'Monument Grotesk';
-        src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.eot');
-        src: local('Monument Grotesk Italic'), local('MonumentGrotesk-Italic'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.eot')format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.ttf') format('truetype');
-        font-weight: normal;
-        font-style: italic;
-    }
-    
-    @font-face {
-        font-family: 'Monument Grotesk';
-        src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.eot');
-        src: local('Monument Grotesk Medium'), local('MonumentGrotesk-Medium'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.ttf') format('truetype');
-        font-weight: 500;
-        font-style: normal;
-    }
-    
-    @font-face {
-        font-family: 'Monument Grotesk Semi-Mono';
-        src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.eot');
-        src: local('Monument Grotesk Semi-Mono'), local('MonumentGrotesk-Semi-Mono'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.ttf') format('truetype');
-        font-weight: 600;
-        font-style: normal;
-    }
-    
-    @font-face {
-        font-family: 'Monument Grotesk';
-        src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.eot');
-        src: local('Monument Grotesk Regular'), local('MonumentGrotesk-Regular'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-    
-    @font-face {
-        font-family: 'Monument Grotesk Mono';
-        src: url('MonumentGrotesk-Mono.eot');
-        src: local('Monument Grotesk Mono'), local('MonumentGrotesk-Mono'), url('MonumentGrotesk-Mono.eot?#iefix') format('embedded-opentype'), url('MonumentGrotesk-Mono.woff2') format('woff2'), url('MonumentGrotesk-Mono.woff') format('woff'), url('MonumentGrotesk-Mono.ttf') format('truetype');
-        font-weight: normal;
-        font-style: normal;
-    }
-    
-    @font-face {
-        font-family: 'Monument Grotesk';
-        src: url('MonumentGrotesk-BoldItalic.eot');
-        src: local('Monument Grotesk Bold Italic'), local('MonumentGrotesk-BoldItalic'), url('MonumentGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'), url('MonumentGrotesk-BoldItalic.woff2') format('woff2'), url('MonumentGrotesk-BoldItalic.woff') format('woff'), url('MonumentGrotesk-BoldItalic.ttf') format('truetype');
-        font-weight: bold;
-        font-style: italic;
-    }
-    
-    @font-face {
-        font-family: 'Monument Grotesk';
-        src: url('MonumentGrotesk-MediumItalic.eot');
-        src: local('Monument Grotesk Medium Italic'), local('MonumentGrotesk-MediumItalic'), url('MonumentGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'), url('MonumentGrotesk-MediumItalic.woff2') format('woff2'), url('MonumentGrotesk-MediumItalic.woff') format('woff'), url('MonumentGrotesk-MediumItalic.ttf') format('truetype');
-        font-weight: 500;
-        font-style: italic;
-    }
-    
-    @font-face {
-        font-family: 'Baskerville Normal';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Baskerville Normal'), url('assets/fonts/baskerville-cufonfonts-webfont/baskvl.woff') format('woff');
-    }
-    
-    @font-face {
-        font-family: 'Baskerville Regular';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Baskerville Regular'), url('assets/fonts/baskerville-cufonfonts-webfont/baskervi.woff') format('woff');
-    }
-    
-    @font-face {
-        font-family: 'Baskerville Light-Italic';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Baskerville Light-Italic'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKE10.woff') format('woff');
-    }
-    
-    @font-face {
-        font-family: 'Baskerville Light';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Baskerville Light'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKE9.woff') format('woff');
-    }
-    
-    @font-face {
-        font-family: 'Baskerville LightA';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Baskerville LightA'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKRV_L.woff') format('woff');
-    }
-    
-    @font-face {
-        font-family: 'Baskerville Bold';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Baskerville Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKE1.woff') format('woff');
-    }
-    
-    @font-face {
-        font-family: 'Baskerville Bold';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Baskerville Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/Baskerville\ Bold\ font.woff') format('woff');
-    }
-    
-    @font-face {
-        font-family: 'Baskerville BT Roman';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Baskerville BT Roman'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleBT.woff') format('woff');
-    }
-    
-    @font-face {
-        font-family: 'Baskerville BT Italic';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Baskerville BT Italic'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleItalicBT.woff') format('woff');
-    }
-    
-    @font-face {
-        font-family: 'Baskerville BT Bold';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Baskerville BT Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleBoldBT.woff') format('woff');
-    }
-    
-    @font-face {
-        font-family: 'Baskerville BT Bold';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Baskerville BT Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/baskerville\ bold\ bt.woff') format('woff');
-    }
-    
-    @font-face {
-        font-family: 'Baskerville BT Bold Italic';
-        font-style: normal;
-        font-weight: normal;
-        src: local('Baskerville BT Bold Italic'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleBoldItalicBT.woff') format('woff');
-    }
-    
-    *,
-    *::after,
-    *::before {
-        box-sizing: border-box;
-    }
-    
-    body {
-        display: block;
-        margin-top: -6px;
-        padding: 6rem 0 92px;
-    }
-    
-    header {
-        border: 1px solid black;
-        position: fixed;
-        left: 0;
-        top: 0;
-        width: 100vw;
-        padding: 0px;
-        background-color: white;
-        font-size: 18px;
-        font-family: Monument Grotesk;
-    }
-    
-    .styledes {
-        font-family: Monument Grotesk;
-        font-size: 18px;
-        letter-spacing: -0.005em;
-        color: #13798C;
-        -webkit-transform: rotate(90deg);
-        transform: rotate(90deg);
-        vertical-align: baseline;
-        margin: 40px 26px;
-        right: 20px;
-    }
-    
-    .home {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        left: 0;
-        top: 0;
-        height: 100%;
-        padding: 0 20px;
-        background: grey;
-    }
-    
-    .menu {
-        box-sizing: border-box;
-        margin: 0;
-        min-width: 0;
-        position: relative;
-        max-width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-        grid-template-columns: repeat(12, 1fr);
-        grid-column-gap: 0;
-        background-color: white;
-        display: grid;
-        font-family: Baskerville;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 28px;
-        color: #000000;
-    }
-    
-    .li {
-        display: list-item;
-        text-align: -webkit-match-parent;
-        font-family: Monument Grotesk;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        text-align: center;
-        color: black;
-        margin: 15px;
-    }
-    
-    ol,
-    ul {
-        list-style: none;
-    }
-    
-    .nav-list {
-        display: flex;
-        justify-content: flex-end;
-        margin-inline-end: 150px;
-    }
-    
-    .nav-list>li+li {
-        margin-left: 20px;
-    }
-    
-    a {
-        text-decoration: none;
-        color: black;
-    }
-    
-    a,
-    a:visited {
-        color: inherit;
-    }
-    
-    .intro {
-        min-height: 100vh;
-        display: flex;
-    }
-    
-    .works {
-        display: flex;
-        min-height: 100vh;
-    }
-    
-    .footer {
-        display: flex;
-    }
-    
-    .col-1 {
-        width: calc(1 / 6 * 100%);
-        border: solid 1px black;
-    }
-    
-    .col-2 {
-        width: calc(2 / 6 * 100%);
-        border: solid 1px black;
-    }
-    
-    .col-3 {
-        width: calc(3 / 6 * 100%);
-        border: solid 1px black;
-    }
-    
-    .col-4 {
-        width: calc(4 / 6 * 100%);
-        border: solid 1px black;
-    }
-    
-    .col-5 {
-        width: calc(5 / 6 * 100%);
-        border: solid 1px black;
-    }
-    
-    .col-6 {
-        width: calc(6 / 6 * 100%);
-        border: solid 1px black;
-    }
-    
-    .grid+.grid {
-        margin-top: 20rem;
-    }
-    
-    .maintext {
-        font-family: Baskerville;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 24px;
-        color: #151515;
-        width: 298px;
-        height: 92px;
-        margin-top: 195px;
-        margin-left: 20px;
-    }
-    
-    .circle {
-        display: flex;
-        flex-direction: column;
-        margin-top: 254px;
-        margin-left: 120px;
-    }
-    
-    .line {
-        position: absolute;
-        width: 241px;
-        height: 0px;
-        right: 0px;
-        top: 352px;
-        border: 1px solid #101010;
-        justify-content: flex-end;
-    }
-    
-    .discover {
-        position: absolute;
-        right: 323px;
-        top: 321px;
-        font-family: Baskerville;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 48px;
-        line-height: 55px;
-        color: #000000;
-        justify-content: flex-end;
-    }
-    
-    .arrow {
-        position: absolute;
-        left: 53.5px;
-        top: 565px;
-    }
-    
-    .btn {
-        width: 125px;
-        height: 41px;
-        cursor: pointer;
-        border: #13798C solid 2px;
-        background: white;
-        color: black;
-        font-family: Monument Grotesk;
-        font-size: 14px;
-        line-height: 23px;
-        border-radius: 40px;
-        outline: none;
-        box-sizing: border-box;
-        border-radius: 30px;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-        margin-left: 15px;
-        margin-top: 15px;
-    }
-    
-    .btn:hover {
-        background-color: grey;
-    }
-    
-    .btn:active {
-        background-color: #13798C;
-        color: white;
-    }
-    
-    .behance {
-        color: #13798C;
-        font-family: Monument Grotesk;
-        font-weight: bold;
-        font-size: 18px;
-        position: absolute;
-        width: 86px;
-        height: 41px;
-        right: 101px;
-        top: 520px;
-    }
-    
-    .behance:hover {
-        color: black;
-    }
-    
-    .insta {
-        color: #13798C;
-        font-family: Monument Grotesk;
-        font-weight: bold;
-        font-size: 18px;
-        position: absolute;
-        width: 78px;
-        height: 46px;
-        right: 118px;
-        top: 550px;
-    }
-    
-    .insta:hover {
-        color: black;
-    }
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('MonumentGrotesk-Bold.eot');
+    src: local('Monument Grotesk Bold'), local('MonumentGrotesk-Bold'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.eot');
+    src: local('Monument Grotesk Italic'), local('MonumentGrotesk-Italic'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.eot')format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.eot');
+    src: local('Monument Grotesk Medium'), local('MonumentGrotesk-Medium'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk Semi-Mono';
+    src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.eot');
+    src: local('Monument Grotesk Semi-Mono'), local('MonumentGrotesk-Semi-Mono'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.eot');
+    src: local('Monument Grotesk Regular'), local('MonumentGrotesk-Regular'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk Mono';
+    src: url('MonumentGrotesk-Mono.eot');
+    src: local('Monument Grotesk Mono'), local('MonumentGrotesk-Mono'), url('MonumentGrotesk-Mono.eot?#iefix') format('embedded-opentype'), url('MonumentGrotesk-Mono.woff2') format('woff2'), url('MonumentGrotesk-Mono.woff') format('woff'), url('MonumentGrotesk-Mono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('MonumentGrotesk-BoldItalic.eot');
+    src: local('Monument Grotesk Bold Italic'), local('MonumentGrotesk-BoldItalic'), url('MonumentGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'), url('MonumentGrotesk-BoldItalic.woff2') format('woff2'), url('MonumentGrotesk-BoldItalic.woff') format('woff'), url('MonumentGrotesk-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Monument Grotesk';
+    src: url('MonumentGrotesk-MediumItalic.eot');
+    src: local('Monument Grotesk Medium Italic'), local('MonumentGrotesk-MediumItalic'), url('MonumentGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'), url('MonumentGrotesk-MediumItalic.woff2') format('woff2'), url('MonumentGrotesk-MediumItalic.woff') format('woff'), url('MonumentGrotesk-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Baskerville Normal';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville Normal'), url('assets/fonts/baskerville-cufonfonts-webfont/baskvl.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Baskerville Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville Regular'), url('assets/fonts/baskerville-cufonfonts-webfont/baskervi.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Baskerville Light-Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville Light-Italic'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKE10.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Baskerville Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville Light'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKE9.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Baskerville LightA';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville LightA'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKRV_L.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Baskerville Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKE1.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Baskerville Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/Baskerville\ Bold\ font.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Baskerville BT Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville BT Roman'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleBT.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Baskerville BT Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville BT Italic'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleItalicBT.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Baskerville BT Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville BT Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleBoldBT.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Baskerville BT Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville BT Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/baskerville\ bold\ bt.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Baskerville BT Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Baskerville BT Bold Italic'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleBoldItalicBT.woff') format('woff');
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin-top: -6px;
+    padding: 6rem 0 92px;
+}
+
+header {
+    border: 1px solid black;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    padding: 0px;
+    background-color: white;
+    font-size: 18px;
+    font-family: Monument Grotesk;
+}
+
+.styledes {
+    font-family: Monument Grotesk;
+    font-size: 18px;
+    letter-spacing: -0.005em;
+    color: #13798C;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+    vertical-align: baseline;
+    margin: 55px 26px;
+    right: 20px;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 20px;
+    background: grey;
+}
+
+.menu {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    position: relative;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 0;
+    background-color: white;
+    display: grid;
+    font-family: Baskerville;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-family: Monument Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    margin: 15px;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    margin-inline-end: 150px;
+}
+
+.nav-list>li+li {
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a,
+a:visited {
+    color: inherit;
+}
+
+.intro {
+    min-height: 100vh;
+    display: flex;
+}
+
+.works {
+    display: flex;
+    min-height: 100vh;
+}
+
+.footer {
+    display: flex;
+}
+
+.col-1 {
+    width: calc(1 / 6 * 100%);
+    border: solid 1px black;
+}
+
+.col-2 {
+    width: calc(2 / 6 * 100%);
+    border: solid 1px black;
+}
+
+.col-3 {
+    width: calc(3 / 6 * 100%);
+    border: solid 1px black;
+}
+
+.col-4 {
+    width: calc(4 / 6 * 100%);
+    border: solid 1px black;
+}
+
+.col-5 {
+    width: calc(5 / 6 * 100%);
+    border: solid 1px black;
+}
+
+.col-6 {
+    width: calc(6 / 6 * 100%);
+    border: solid 1px black;
+}
+
+.grid+.grid {
+    margin-top: 20rem;
+}
+
+.maintext {
+    font-family: Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: #151515;
+    width: 298px;
+    height: 92px;
+    margin-top: 195px;
+    margin-left: 20px;
+}
+
+.circle {
+    position: absolute;
+    /* left: 10px;
+    display: flex; */
+    margin-top: 254px;
+    margin-left: 120px;
+}
+
+*/ .line {
+    position: absolute;
+    width: 241px;
+    height: 0px;
+    right: 0px;
+    top: 352px;
+    border: 1px solid #101010;
+    justify-content: flex-end;
+}
+
+.discover {
+    position: absolute;
+    right: 323px;
+    top: 321px;
+    font-family: Baskerville;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 55px;
+    color: #000000;
+    justify-content: flex-end;
+}
+
+.arrow {
+    position: absolute;
+    left: 53.5px;
+    top: 565px;
+}
+
+.btn {
+    width: 125px;
+    height: 41px;
+    cursor: pointer;
+    border: #13798C solid 2px;
+    background: white;
+    color: black;
+    font-family: Monument Grotesk;
+    font-size: 14px;
+    line-height: 23px;
+    border-radius: 40px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.btn:active {
+    background-color: #13798C;
+    color: white;
+}
+
+.behance {
+    color: #13798C;
+    font-family: Monument Grotesk;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    width: 86px;
+    height: 41px;
+    right: 101px;
+    top: 520px;
+}
+
+.behance:hover {
+    color: black;
+}
+
+.insta {
+    color: #13798C;
+    font-family: Monument Grotesk;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    width: 78px;
+    height: 46px;
+    right: 118px;
+    top: 550px;
+}
+
+.insta:hover {
+    color: black;
+}

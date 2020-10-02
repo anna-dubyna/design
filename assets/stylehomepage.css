@@ -384,133 +384,6 @@
         font-size: calc(10/1152*100vw);
     }
     
-    @media (max-width: 375px) {
-        .imgfirst {
-            display: none;
-        }
-        aside {
-            position: fixed;
-            width: 100%;
-            background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
-        }
-        ul.vertical-menu {
-            display: none;
-        }
-        .vertical-menu :hover {
-            color: #135c3a;
-            display: none;
-        }
-        .content-box {
-            top: 0px;
-            margin-left: 0px;
-            /*border: 2px solid black;*/
-            background-image: none
-            /*linear-gradient(270.11deg, #C7C7C7 0.3%, rgba(255, 255, 255, 0.5) 50.51%);*/
-        }
-        p {
-            font-size: 36px;
-            display: flex;
-            left: 110px;
-            top: 150px;
-            /* используем flex для центрирования содержимого */
-            align-items: center;
-        }
-        p.cite {
-            position: absolute;
-            width: 125px;
-            height: 48px;
-            left: 112px;
-            top: 203px;
-            font-family: 'Acumin Pro';
-            font-style: normal;
-            font-weight: normal;
-            font-size: 16px;
-            line-height: 29px;
-            text-transform: capitalize;
-            color: #999999;
-        }
-        #text {
-            text-align: center;
-            color: white;
-        }
-        .ptext {
-            display: flex;
-            position: absolute;
-            right: 122px;
-            margin-top: 315px;
-            font-family: 'Lato', sans-serif;
-            font-style: normal;
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 29px;
-            text-align: center;
-            color: white;
-        }
-        p.inst {
-            position: absolute;
-            width: 155px;
-            height: 34px;
-            left: 40px;
-            top: 624px;
-            font-family: 'Acumin Pro';
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-            line-height: 22px;
-            text-transform: capitalize;
-            color: #F5F2F2;
-        }
-        p.beh {
-            position: absolute;
-            width: 104px;
-            height: 19px;
-            left: 41px;
-            font-family: Acumin Pro;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-            line-height: 22px;
-            text-transform: capitalize;
-            color: #F5F2F2;
-        }
-        .buttontextcont {
-            position: absolute;
-            width: 70px;
-            height: 23px;
-            right: 100px;
-            top: 35px;
-            font-family: Acumin Pro;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-            color: white;
-        }
-        .buttoncontact {
-            position: absolute;
-            right: 35px;
-            top: 18px;
-            color: white;
-        }
-        .buttontextportf {
-            font-size: 12px;
-            color: white;
-        }
-        .menu__btn {
-            display: flex;
-            /* используем flex для центрирования содержимого */
-            align-items: center;
-            /* центрируем содержимое кнопки */
-            position: fixed;
-            top: 40px;
-            left: 40px;
-            width: 26px;
-            height: 26px;
-            cursor: pointer;
-            z-index: 1;
-            display: block;
-        }
-    }
-    
     @media (max-width: 768px) {
         .imgfirst {
             position: absolute;
@@ -595,5 +468,133 @@
         .buttontextportf {
             font-size: 16px;
             color: #343434;
+        }
+    }
+    
+    @media (max-width: 375px) {
+        .imgfirst {
+            display: none;
+        }
+        aside {
+            position: fixed;
+            width: 100%;
+            background: radial-gradient(99.13% 32.69% at 101% 49.29%, rgba(13, 47, 54, 0.96) 0%, #0A2429 100%);
+        }
+        ul.vertical-menu {
+            display: none;
+        }
+        .vertical-menu :hover {
+            color: #135c3a;
+            display: none;
+        }
+        .content-box {
+            top: 0px;
+            margin-left: 0px;
+            /*border: 2px solid black;*/
+            background-image: none
+            /*linear-gradient(270.11deg, #C7C7C7 0.3%, rgba(255, 255, 255, 0.5) 50.51%);*/
+        }
+        p {
+            font-size: 36px;
+            display: flex;
+            left: 110px;
+            top: 150px;
+            /* используем flex для центрирования содержимого */
+            align-items: center;
+        }
+        p.cite {
+            position: absolute;
+            width: 125px;
+            height: 48px;
+            left: 112px;
+            top: 203px;
+            font-family: 'Acumin Pro';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 29px;
+            text-transform: capitalize;
+            color: #999999;
+        }
+        #text {
+            text-align: center;
+            color: white;
+        }
+        .ptext {
+            display: flex;
+            position: absolute;
+            right: 45px;
+            margin-top: 315px;
+            font-family: 'Lato', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 11px;
+            /* line-height: 29px; */
+            text-align: center;
+            color: white;
+            width: 253px;
+        }
+        p.inst {
+            position: absolute;
+            width: 155px;
+            height: 34px;
+            left: 40px;
+            top: 624px;
+            font-family: 'Acumin Pro';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            text-transform: capitalize;
+            color: #F5F2F2;
+        }
+        p.beh {
+            position: absolute;
+            width: 104px;
+            height: 19px;
+            left: 41px;
+            font-family: Acumin Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 22px;
+            text-transform: capitalize;
+            color: #F5F2F2;
+        }
+        .buttontextcont {
+            position: absolute;
+            width: 70px;
+            height: 23px;
+            right: 100px;
+            top: 35px;
+            font-family: Acumin Pro;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            color: whitesmoke;
+        }
+        .buttoncontact {
+            position: absolute;
+            right: 35px;
+            top: 18px;
+            color: white;
+        }
+        .buttontextportf {
+            font-size: 12px;
+            color: white;
+        }
+        .menu__btn {
+            display: flex;
+            /* используем flex для центрирования содержимого */
+            align-items: center;
+            /* центрируем содержимое кнопки */
+            position: fixed;
+            top: 40px;
+            left: 40px;
+            width: 26px;
+            height: 26px;
+            cursor: pointer;
+            z-index: 1;
+            display: block;
         }
     }

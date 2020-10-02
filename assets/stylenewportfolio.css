@@ -322,39 +322,6 @@
         top: 565px;
     }
     
-    .btn {
-        position: absolute;
-        left: 338px;
-        top: 300px;
-        width: 125px;
-        height: 41px;
-        cursor: pointer;
-        border: #13798C solid 2px;
-        background: white;
-        color: black;
-        font-family: Monument Grotesk;
-        font-size: 14px;
-        line-height: 23px;
-        border-radius: 40px;
-        outline: none;
-        box-sizing: border-box;
-        border-radius: 30px;
-        justify-content: center;
-        align-items: center;
-        display: inline-block;
-        vertical-align: middle;
-        text-align: center;
-    }
-    
-    .btn:hover {
-        background-color: grey;
-    }
-    
-    .btn:active {
-        background-color: #13798C;
-        color: white;
-    }
-    
     .behance {
         color: #13798C;
         font-family: Monument Grotesk;
