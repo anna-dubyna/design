@@ -168,9 +168,11 @@ header {
     background-color: white;
     font-size: 18px;
     font-family: Monument Grotesk;
+    z-index: 999;
 }
 
 .styledes {
+    position: absolute;
     font-family: Monument Grotesk;
     font-size: 18px;
     letter-spacing: -0.005em;
@@ -178,8 +180,9 @@ header {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     vertical-align: baseline;
-    margin: 55px 26px;
-    right: 20px;
+    top: 18vh;
+    left: 8vh;
+    z-index: -1;
 }
 
 .home {
@@ -187,7 +190,7 @@ header {
     justify-content: center;
     align-items: center;
     position: absolute;
-    left: 0;
+    left: 25px;
     top: 0;
     height: 100%;
     padding: 0 20px;
@@ -311,41 +314,53 @@ a:visited {
     margin-left: 20px;
 }
 
-.circle {
+hr {
     position: absolute;
-    /* left: 10px;
-    display: flex; */
-    margin-top: 254px;
-    margin-left: 120px;
+    width: 41vh;
+    right: 0px;
+    top: 442px;
+    justify-content: flex-end;
+    border: none;
+    background-color: black;
+    color: black;
+    height: 1px;
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 1em;
+    margin-block-end: 0.5em;
+    margin-inline-start: 1em;
+    margin-inline-end: auto;
+    overflow: hidden;
 }
 
-*/ .line {
+.circle {
     position: absolute;
-    width: 241px;
-    height: 0px;
-    right: 0px;
-    top: 352px;
-    border: 1px solid #101010;
-    justify-content: flex-end;
+    display: flex;
+    margin-top: 265px;
+    /* margin-left: 145px; */
+    margin-left: 30vh;
+    z-index: -1;
+    align-items: center;
+    justify-content: center
 }
 
 .discover {
     position: absolute;
-    right: 323px;
-    top: 321px;
+    right: 96px;
     font-family: Baskerville;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
     line-height: 55px;
     color: #000000;
-    justify-content: flex-end;
+    align-items: center;
 }
 
 .arrow {
     position: absolute;
-    left: 53.5px;
-    top: 565px;
+    left: 10vh;
+    top: 90vh;
+    z-index: -1;
 }
 
 .btn {
@@ -381,13 +396,16 @@ a:visited {
 .behance {
     color: #13798C;
     font-family: Monument Grotesk;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 18px;
     position: absolute;
     width: 86px;
     height: 41px;
-    right: 101px;
-    top: 520px;
+    top: 85vh;
+    font-style: normal;
+    line-height: 0px;
+    text-align: right;
+    z-index: -1;
 }
 
 .behance:hover {
@@ -397,15 +415,106 @@ a:visited {
 .insta {
     color: #13798C;
     font-family: Monument Grotesk;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 18px;
     position: absolute;
-    width: 78px;
+    width: 89px;
     height: 46px;
-    right: 118px;
-    top: 550px;
+    top: 90vh;
+    font-style: normal;
+    line-height: 0px;
+    text-align: right;
+    z-index: -1;
 }
 
 .insta:hover {
     color: black;
+}
+
+.works {
+    background: #F8F8F8;
+}
+
+.worksp {
+    position: absolute;
+    width: 175.84px;
+    height: 47px;
+    top: 1160px;
+    font-family: Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 116.31%;
+    /* or 56px */
+    letter-spacing: 0.145em;
+    color: #000000;
+    transform: rotate(-90deg);
+    /* z-index: -1; */
+}
+
+.grid {
+    display: flex;
+    background: white;
+    height: 100vh;
+    margin: 5%;
+    margin-left: 0px;
+    margin-right: 15px;
+    border: solid 1px grey;
+}
+
+.card-column-1 {
+    width: 33%;
+    padding: 0px;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+.child-1 {
+    background-color: white;
+    height: 40%;
+    border: solid 1px grey;
+}
+
+.child-2 {
+    background-color: white;
+    height: 60%;
+    border: solid 1px grey;
+}
+
+.card-column-2 {
+    width: 33%;
+    padding: 0px;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+.child-3 {
+    background-color: white;
+    height: 50%;
+    border: solid 1px grey;
+}
+
+.child-4 {
+    background-color: white;
+    height: 50%;
+    border: solid 1px grey;
+}
+
+.card-column-3 {
+    width: 33%;
+    padding: 0px;
+    margin-top: 20px;
+    border: 1px solid red;
+}
+
+.child-5 {
+    background-color: white;
+    height: 60%;
+    border: solid 1px grey;
+}
+
+.child-6 {
+    background-color: white;
+    height: 40%;
+    border: solid 1px grey;
 }
