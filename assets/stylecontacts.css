@@ -171,20 +171,6 @@ header {
     z-index: 999;
 }
 
-.styledes {
-    position: absolute;
-    font-family: Monument Grotesk;
-    font-size: 18px;
-    letter-spacing: -0.005em;
-    color: #13798C;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    vertical-align: baseline;
-    top: 18vh;
-    left: 8vh;
-    z-index: -1;
-}
-
 .home {
     display: flex;
     justify-content: center;
@@ -321,36 +307,6 @@ hr {
     overflow: hidden;
 }
 
-.circle {
-    position: absolute;
-    display: flex;
-    margin-top: 265px;
-    /* margin-left: 145px; */
-    margin-left: 30vh;
-    z-index: -1;
-    align-items: center;
-    justify-content: center
-}
-
-.discover {
-    position: absolute;
-    right: 96px;
-    font-family: Baskerville;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 55px;
-    color: #000000;
-    align-items: center;
-}
-
-.arrow {
-    position: absolute;
-    left: 10vh;
-    top: 90vh;
-    z-index: -1;
-}
-
 .btn {
     width: 125px;
     height: 41px;
@@ -379,44 +335,6 @@ hr {
 .btn:active {
     background-color: #13798C;
     color: white;
-}
-
-.behance {
-    color: #13798C;
-    font-family: Monument Grotesk;
-    font-weight: normal;
-    font-size: 18px;
-    position: absolute;
-    width: 86px;
-    height: 41px;
-    top: 85vh;
-    font-style: normal;
-    line-height: 0px;
-    text-align: right;
-    z-index: -1;
-}
-
-.behance:hover {
-    color: black;
-}
-
-.insta {
-    color: #13798C;
-    font-family: Monument Grotesk;
-    font-weight: normal;
-    font-size: 18px;
-    position: absolute;
-    width: 89px;
-    height: 46px;
-    top: 90vh;
-    font-style: normal;
-    line-height: 0px;
-    text-align: right;
-    z-index: -1;
-}
-
-.insta:hover {
-    color: black;
 }
 
 .works {
@@ -457,8 +375,9 @@ hr {
 }
 
 .card-column-1 {
-    width: 50%;
+    width: 30%;
     padding: 20px;
+    background: #F8F8F8;
     /* border: 1px solid red; */
 }
 
@@ -466,6 +385,7 @@ hr {
     background-color: white;
     height: 50%;
     margin-top: 20px;
+    display: none;
     /* border: solid 1px grey; */
 }
 
@@ -494,7 +414,30 @@ hr {
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    height: 100%;
+    justify-content: center;
+}
+
+.card-column-3 {
+    width: 40%;
+    padding: 0px;
+    padding: 20px;
+    padding-right: 20px;
+    /* border: 1px solid red; */
+}
+
+.boxcont {
+    /* align-items: center; */
+    width: 100%;
+    border: 1px solid gray;
+    text-align: center;
+    position: relative;
+    color: black;
+    font-family: Monument Grotesk;
+    font-weight: normal;
+    font-size: 24px;
+    text-transform: lowercase;
+    vertical-align: middle;
 }
 
 .box {
@@ -510,6 +453,10 @@ hr {
     font-weight: normal;
     font-size: 18px;
     margin-inline-start: 175px;
+}
+
+.box:hover {
+    color: grey;
 }
 
 .namework {

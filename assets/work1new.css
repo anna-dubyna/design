@@ -171,7 +171,8 @@ header {
     z-index: 999;
 }
 
-.styledes {
+
+/* .styledes {
     position: absolute;
     font-family: Monument Grotesk;
     font-size: 18px;
@@ -183,7 +184,7 @@ header {
     top: 18vh;
     left: 8vh;
     z-index: -1;
-}
+} */
 
 .home {
     display: flex;
@@ -319,36 +320,6 @@ hr {
     margin-inline-start: 1em;
     margin-inline-end: auto;
     overflow: hidden;
-}
-
-.circle {
-    position: absolute;
-    display: flex;
-    margin-top: 265px;
-    /* margin-left: 145px; */
-    margin-left: 30vh;
-    z-index: -1;
-    align-items: center;
-    justify-content: center
-}
-
-.discover {
-    position: absolute;
-    right: 96px;
-    font-family: Baskerville;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 55px;
-    color: #000000;
-    align-items: center;
-}
-
-.arrow {
-    position: absolute;
-    left: 10vh;
-    top: 90vh;
-    z-index: -1;
 }
 
 .btn {
@@ -533,6 +504,10 @@ hr {
     font-weight: normal;
     font-size: 18px;
     margin-inline-start: 175px;
+}
+
+.box:hover {
+    color: grey;
 }
 
 .namework {

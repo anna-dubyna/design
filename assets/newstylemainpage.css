@@ -542,6 +542,10 @@ hr {
     margin-inline-start: 175px;
 }
 
+.box:hover {
+    color: grey;
+}
+
 .work01 {
     width: 100%;
     height: 100%;
