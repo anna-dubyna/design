@@ -457,8 +457,8 @@ hr {
 }
 
 .card-column-1 {
-    width: 40%;
-    padding: 0px;
+    width: 50%;
+    padding: 20px;
     /* border: 1px solid red; */
 }
 
@@ -466,7 +466,7 @@ hr {
     background-color: white;
     height: 50%;
     margin-top: 20px;
-    border: solid 1px grey;
+    /* border: solid 1px grey; */
 }
 
 .child-2 {
@@ -476,41 +476,18 @@ hr {
 }
 
 .card-column-2 {
-    width: 10%;
+    width: 40%;
     padding: 0px;
-    margin-top: 27px;
+    margin-top: 72px;
+    padding: 20px;
+    padding-right: 20px;
     /* border: 1px solid red; */
 }
 
 .child-3 {
     background-color: white;
-    height: 50%;
-    /* border: solid 1px grey; */
-}
-
-.card-column-3 {
-    width: 50%;
-    padding: 0px;
-    margin-top: 27px;
-    /* border: 1px solid red; */
-}
-
-.child-4 {
-    background-color: white;
-    height: 30%;
-    width: 100%;
-    /* border: solid 1px grey; */
-    display: flex;
-    justify-content: end;
-}
-
-.child-5 {
-    background-color: white;
     height: 70%;
-    width: 100%;
     border: solid 1px grey;
-    display: flex;
-    justify-content: start;
 }
 
 .wrapper {
@@ -542,7 +519,8 @@ hr {
     line-height: 116.31%;
     /* or 28px */
     letter-spacing: -0.005em;
-    color: #000000;
+    margin-top: 20px;
+    color: #13798C;
 }
 
 .diskriptiontext {
