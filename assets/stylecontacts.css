@@ -375,7 +375,7 @@ hr {
 }
 
 .card-column-1 {
-    width: 30%;
+    width: 20%;
     padding: 20px;
     background: #F8F8F8;
     /* border: 1px solid red; */
@@ -398,9 +398,9 @@ hr {
 .card-column-2 {
     width: 40%;
     padding: 0px;
-    margin-top: 72px;
     padding: 20px;
     padding-right: 20px;
+    background: #F8F8F8;
     /* border: 1px solid red; */
 }
 
@@ -410,20 +410,20 @@ hr {
     border: solid 1px grey;
 }
 
-.wrapper {
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    justify-content: center;
-}
-
 .card-column-3 {
     width: 40%;
     padding: 0px;
     padding: 20px;
     padding-right: 20px;
     /* border: 1px solid red; */
+}
+
+.wrapper {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
 }
 
 .boxcont {
@@ -436,8 +436,8 @@ hr {
     font-family: Monument Grotesk;
     font-weight: normal;
     font-size: 24px;
-    text-transform: lowercase;
     vertical-align: middle;
+    top: 20px
 }
 
 .box {

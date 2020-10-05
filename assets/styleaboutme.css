@@ -512,6 +512,10 @@ hr {
     margin-inline-start: 175px;
 }
 
+.box:hover {
+    color: grey;
+}
+
 .namework {
     font-family: Baskerville;
     font-style: normal;
