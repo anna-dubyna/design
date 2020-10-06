@@ -418,14 +418,6 @@ hr {
     /* border: 1px solid red; */
 }
 
-.wrapper {
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
-    justify-content: center;
-}
-
 .boxcont {
     /* align-items: center; */
     width: 100%;
@@ -438,6 +430,22 @@ hr {
     font-size: 24px;
     vertical-align: middle;
     top: 20px
+}
+
+.boxcont p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.wrapper {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .box {
