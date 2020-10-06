@@ -307,36 +307,6 @@ hr {
     overflow: hidden;
 }
 
-.btn {
-    width: 125px;
-    height: 41px;
-    cursor: pointer;
-    border: #13798C solid 2px;
-    background: white;
-    color: black;
-    font-family: Monument Grotesk;
-    font-size: 14px;
-    line-height: 23px;
-    border-radius: 40px;
-    outline: none;
-    box-sizing: border-box;
-    border-radius: 30px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-.btn:hover {
-    background-color: grey;
-}
-
-.btn:active {
-    background-color: #13798C;
-    color: white;
-}
-
 .works {
     background: #F8F8F8;
 }
@@ -381,20 +351,6 @@ hr {
     /* border: 1px solid red; */
 }
 
-.child-1 {
-    background-color: white;
-    height: 50%;
-    margin-top: 20px;
-    display: none;
-    /* border: solid 1px grey; */
-}
-
-.child-2 {
-    background-color: white;
-    height: 40%;
-    /* border: solid 1px grey; */
-}
-
 .card-column-2 {
     width: 40%;
     padding: 0px;
@@ -402,12 +358,6 @@ hr {
     padding-right: 20px;
     background: #F8F8F8;
     /* border: 1px solid red; */
-}
-
-.child-3 {
-    background-color: white;
-    height: 70%;
-    border: solid 1px grey;
 }
 
 .card-column-3 {
@@ -418,9 +368,30 @@ hr {
     /* border: 1px solid red; */
 }
 
+.child-1 {
+    background-color: white;
+    height: 33%;
+    margin-top: 20px;
+    display: none;
+    border: solid 1px grey;
+}
+
+.child-2 {
+    background-color: white;
+    height: 33%;
+    border: solid 1px grey;
+}
+
+.child-3 {
+    background-color: white;
+    height: 33%;
+    border: solid 1px grey;
+}
+
 .boxcont {
     /* align-items: center; */
     width: 100%;
+    height: 25%;
     border: 1px solid gray;
     text-align: center;
     position: relative;
@@ -429,16 +400,7 @@ hr {
     font-weight: normal;
     font-size: 24px;
     vertical-align: middle;
-    top: 20px
-}
-
-.boxcont p {
     margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%)
 }
 
 .wrapper {
