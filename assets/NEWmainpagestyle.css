@@ -181,8 +181,8 @@ header {
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     vertical-align: baseline;
-    top: 19vh;
-    left: 6vh;
+    top: 22vh;
+    left: 8vh;
     z-index: -1;
 }
 
@@ -352,19 +352,19 @@ hr {
     position: absolute;
     width: 50vh;
     right: 0px;
-    top: 63%;
+    top: 70%;
     justify-content: flex-end;
     border: none;
     background-color: black;
     color: black;
     height: 1px;
-    display: block;
-    unicode-bidi: isolate;
+    display: flex;
+    /* unicode-bidi: isolate;
     margin-block-start: 1em;
     margin-block-end: 0.5em;
     margin-inline-start: 1em;
     margin-inline-end: auto;
-    overflow: hidden;
+    overflow: hidden; */
 }
 
 .circle {
