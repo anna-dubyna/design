@@ -507,7 +507,8 @@ hr {
 }
 
 .box:hover {
-    color: grey;
+    color: black;
+    background-color: grey;
 }
 
 .namework {

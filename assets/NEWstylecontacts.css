@@ -403,6 +403,10 @@ hr {
     margin: 0;
 }
 
+.boxcont:hover {
+    background-color: #13798C;
+}
+
 .wrapper {
     padding: 10px;
     display: flex;
@@ -426,7 +430,8 @@ hr {
 }
 
 .box:hover {
-    color: grey;
+    color: black;
+    background-color: grey;
 }
 
 .namework {

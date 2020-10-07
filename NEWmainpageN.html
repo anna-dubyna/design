@@ -53,8 +53,13 @@
         </div>
         <div class="col-1">
             <hr></hr>
-            <div class="behance">Behance</div>
-            <div class="insta">Instagram</div>
+            <a href="https://www.behance.net/" target="_blank">
+                <div class="boxbeh"> Behance</div>
+            </a>
+
+            <a href="https://www.instagram.com/" target="_blank">
+                <div class="insta">Instagram</div>
+            </a>
         </div>
 
     </section>
@@ -64,12 +69,26 @@
         </div>
         <div class="col-5">
             <div class="grid">
-                <div class="card-column-1">
-                    <div class="child-1">
+                <div class=" card-column-1">
+                    <div class="frame child-1">
                         <a href="NEWwork1.html">
-                            <img class="work01" src="assets/img/01work.png" alt=""></a>
+                            <img class="work01" src="assets/img/01work.png" alt="">
+                            <div class="details">
+                                <h1>Lorem</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="child-2"><img class="work01" src="assets/img/04work.png" alt=""></div>
+
+                    <div class="frame child-2">
+                        <a href="">
+                            <img class="work01" src="assets/img/04work.png" alt="">
+                            <div class="details">
+                                <h1>Lorem</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
+                            </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="card-column-2">
                     <div class="child-3"><img class="work01" src="assets/img/02work.png" alt=""></div>
@@ -111,24 +130,6 @@
                     behavior: "smooth",
                 });
             });
-
-
-        // document.ready(function() {
-        //     $("a").click(function() {
-        //         var elementClick = $(this).attr("href");
-        //         var destination = $(elementClick).offset().top;
-        //         if ($.browser.safari) {
-        //             $('body').animate({
-        //                 scrollTop: destination
-        //             }, 1100); //1100 - скорость
-        //         } else {
-        //             $('html').animate({
-        //                 scrollTop: destination
-        //             }, 1100);
-        //         }
-        //         return false;
-        //     });
-        // });
     </script>
 
 </body>
