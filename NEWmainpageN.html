@@ -127,9 +127,11 @@
         document
             .querySelector("#myDiv")
             .addEventListener("click", function() {
-                var element = document.querySelector("col-6");
+                var element = document.querySelector(".col-6");
                 element.scrollIntoView({
                     behavior: "smooth",
+                    block: "start",
+                    duration: 100, // тут можно контролировать скорость
                 });
             });
     </script>
