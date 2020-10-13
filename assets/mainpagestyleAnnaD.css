@@ -156,7 +156,7 @@ body {
     display: block;
     margin-top: -6px;
     padding: 6rem 0 0px;
-    margin: 0;
+    /* margin: 0; */
 }
 
 header {
@@ -988,7 +988,6 @@ hr {
         left: 0;
         top: 0;
         width: 1440px;
-        padding: 14px;
         background-color: #F8F8F8;
         font-size: 18px;
         font-family: Monument Grotesk;
