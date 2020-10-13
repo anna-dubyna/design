@@ -56,10 +56,11 @@
                 <div class="discover">discover.</div>
                 <img class="" src="assets/img/Ellipse1.png" alt="">
             </div>
+            <hr>
 
         </div>
         <div class="col-1">
-            <hr></hr>
+
             <a href="https://www.behance.net/" target="_blank">
                 <div class="boxbeh">
                     Behance
@@ -76,37 +77,69 @@
         <div id="myDiv" class="col-1">
             <div class="worksp worksborder">Works.</div>
         </div>
-        <div class="col-5">
+        <div class="col-6">
             <div class="grid">
-                <div class=" card-column-1">
+                <div class="card-column-1">
                     <div class="frame child-1">
                         <a href="NEWwork1.html">
-                            <img class="work01" src="assets/img/01work.png" alt="">
+                            <img class="work01" src="assets/img/01.png" alt="">
                             <div class="details">
-                                <h1>Lorem</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
+                                <h1>01 Name</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                             </div>
                         </a>
                     </div>
 
                     <div class="frame child-2">
                         <a href="">
-                            <img class="work01" src="assets/img/04work.png" alt="">
+                            <img class="work01" src="assets/img/02.png" alt="">
                             <div class="details">
-                                <h1>Lorem</h1>
+                                <h1> 03 Name</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="frame child-3">
+                        <a href="">
+                            <img class="work01" src="assets/img/03.png" alt="">
+                            <div class="details">
+                                <h1>05 Name</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
                             </div>
                         </a>
                     </div>
                 </div>
                 <div class="card-column-2">
-                    <div class="child-3"><img class="work01" src="assets/img/02work.png" alt=""></div>
-                    <div class="child-4"><img class="work01" src="assets/img/05wok.png" alt=""></div>
+                    <div class="frame child-4">
+                        <a href="">
+                            <img class="work01" src="assets/img/04.png" alt="">
+                            <div class="details">
+                                <h1>05 Name</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="frame child-5">
+                        <a href="">
+                            <img class="work01" src="assets/img/03.png" alt="">
+                            <div class="details">
+                                <h1>05 Name</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="frame child-5">
+                        <a href="">
+                            <img class="work01" src="assets/img/03.png" alt="">
+                            <div class="details">
+                                <h1>05 Name</h1>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lorem nunc, sollicitudin a nisi sodales, imperdiet dignissim enim. Nam sapien quam</p>
+                            </div>
+                        </a>
+                    </div>
+
                 </div>
-                <div class="card-column-3">
-                    <div class="child-5"><img class="work01" src="assets/img/03work.png" alt=""></div>
-                    <div class="child-6"><img class="work01" src="assets/img/06work.png" alt=""></div>
-                </div>
+
 
             </div>
         </div>
@@ -134,7 +167,7 @@
         document
             .querySelector("#myDiv")
             .addEventListener("click", function() {
-                var element = document.querySelector(".col-6");
+                var element = document.querySelector(".grid");
                 element.scrollIntoView({
                     behavior: "smooth",
                     block: "start",
