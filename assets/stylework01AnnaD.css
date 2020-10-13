@@ -205,19 +205,6 @@
             content: '';
             top: 8px;
         }
-        /* .styledes {
-    position: absolute;
-    font-family: Monument Grotesk;
-    font-size: 18px;
-    letter-spacing: -0.005em;
-    color: #13798C;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    vertical-align: baseline;
-    top: 18vh;
-    left: 8vh;
-    z-index: -1;
-} */
         
         .home {
             display: flex;
@@ -461,8 +448,8 @@
         }
         
         .card-column-1 {
-            width: 40%;
-            padding: 0px;
+            width: 50%;
+            padding: 5%;
             /* border: 1px solid red; */
         }
         
@@ -470,13 +457,11 @@
             background-color: white;
             height: 50%;
             margin-top: 20px;
-            border: solid 1px grey;
         }
         
         .child-2 {
             background-color: white;
-            height: 40%;
-            /* border: solid 1px grey; */
+            height: 50%;
         }
         
         .card-column-2 {
@@ -545,6 +530,8 @@
         }
         
         .namework {
+            display: flex;
+            position: absolute;
             font-family: Baskerville;
             font-style: normal;
             font-size: 24px;
@@ -741,7 +728,7 @@
             }
             .card-column-1 {
                 width: 85%;
-                padding: 0px;
+                padding: 10%;
                 /* border: 1px solid red; */
             }
             .child-1 {
@@ -749,7 +736,6 @@
                 height: 60%;
                 margin-top: 20px;
                 margin-left: 10%;
-                border: solid 1px grey;
             }
             .p {
                 font-size: 12px;
