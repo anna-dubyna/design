@@ -891,11 +891,9 @@ hr {
     }
     .menu__btn {
         display: flex;
-        /* используем flex для центрирования содержимого */
         align-items: center;
-        /* центрируем содержимое кнопки */
         position: fixed;
-        top: 40px;
+        top: 37px;
         left: 40px;
         width: 26px;
         height: 26px;
