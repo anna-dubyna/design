@@ -410,7 +410,7 @@ hr {
     display: flex;
     height: 1px;
     border: none;
-    width: 30vw;
+    width: 50%;
     top: 65%;
     right: 0;
     /* margin-left: 145px; */
@@ -764,8 +764,8 @@ hr {
         display: flex;
         height: 1px;
         border: none;
-        width: 26vw;
-        top: 73%;
+        width: 30vw;
+        top: 70%;
         right: 0;
         /* margin-left: 145px; */
         align-items: center;
