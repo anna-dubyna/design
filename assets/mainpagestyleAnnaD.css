@@ -508,7 +508,7 @@ hr {
     box-sizing: border-box;
     border-radius: 30px;
     display: inline-block;
-    vertical-align: middle;
+    /* vertical-align: middle; */
     text-align: center;
     margin-left: 15px;
     margin-top: 15px;
