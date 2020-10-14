@@ -793,7 +793,7 @@ hr {
         color: black;
         background-color: black;
         position: absolute;
-        display: flex;
+        display: none;
         height: 1px;
         border: none;
         width: 16vw;
@@ -870,6 +870,17 @@ hr {
         font-weight: normal;
         font-size: 18px;
         /* margin-inline-start: 175px; */
+    }
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 25px;
+        top: 9px;
+        height: 80%;
+        padding: 0 20px;
+        /* background: grey; */
     }
 }
 
