@@ -1,537 +1,799 @@
-@font-face {
-    font-family: 'Monument Grotesk';
-    src: url('MonumentGrotesk-Bold.eot');
-    src: local('Monument Grotesk Bold'), local('MonumentGrotesk-Bold'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Monument Grotesk';
-    src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.eot');
-    src: local('Monument Grotesk Italic'), local('MonumentGrotesk-Italic'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.eot')format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Monument Grotesk';
-    src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.eot');
-    src: local('Monument Grotesk Medium'), local('MonumentGrotesk-Medium'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Monument Grotesk Semi-Mono';
-    src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.eot');
-    src: local('Monument Grotesk Semi-Mono'), local('MonumentGrotesk-Semi-Mono'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Monument Grotesk';
-    src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.eot');
-    src: local('Monument Grotesk Regular'), local('MonumentGrotesk-Regular'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Monument Grotesk Mono';
-    src: url('MonumentGrotesk-Mono.eot');
-    src: local('Monument Grotesk Mono'), local('MonumentGrotesk-Mono'), url('MonumentGrotesk-Mono.eot?#iefix') format('embedded-opentype'), url('MonumentGrotesk-Mono.woff2') format('woff2'), url('MonumentGrotesk-Mono.woff') format('woff'), url('MonumentGrotesk-Mono.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Monument Grotesk';
-    src: url('MonumentGrotesk-BoldItalic.eot');
-    src: local('Monument Grotesk Bold Italic'), local('MonumentGrotesk-BoldItalic'), url('MonumentGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'), url('MonumentGrotesk-BoldItalic.woff2') format('woff2'), url('MonumentGrotesk-BoldItalic.woff') format('woff'), url('MonumentGrotesk-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Monument Grotesk';
-    src: url('MonumentGrotesk-MediumItalic.eot');
-    src: local('Monument Grotesk Medium Italic'), local('MonumentGrotesk-MediumItalic'), url('MonumentGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'), url('MonumentGrotesk-MediumItalic.woff2') format('woff2'), url('MonumentGrotesk-MediumItalic.woff') format('woff'), url('MonumentGrotesk-MediumItalic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Baskerville Normal';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Baskerville Normal'), url('assets/fonts/baskerville-cufonfonts-webfont/baskvl.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Baskerville Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Baskerville Regular'), url('assets/fonts/baskerville-cufonfonts-webfont/baskervi.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Baskerville Light-Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Baskerville Light-Italic'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKE10.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Baskerville Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Baskerville Light'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKE9.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Baskerville LightA';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Baskerville LightA'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKRV_L.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Baskerville Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Baskerville Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKE1.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Baskerville Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Baskerville Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/Baskerville\ Bold\ font.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Baskerville BT Roman';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Baskerville BT Roman'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleBT.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Baskerville BT Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Baskerville BT Italic'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleItalicBT.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Baskerville BT Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Baskerville BT Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleBoldBT.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Baskerville BT Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Baskerville BT Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/baskerville\ bold\ bt.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Baskerville BT Bold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Baskerville BT Bold Italic'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleBoldItalicBT.woff') format('woff');
-}
-
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-}
-
-body {
-    display: block;
-    margin-top: -6px;
-    padding: 6rem 0 0px;
-}
-
-header {
-    /* border: 1px solid black; */
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100vw;
-    padding: 0px;
-    background-color: white;
-    font-size: 18px;
-    font-family: Monument Grotesk;
-    z-index: 999;
-}
-
-.styledes {
-    position: absolute;
-    font-family: Monument Grotesk;
-    font-size: 18px;
-    letter-spacing: -0.005em;
-    color: #13798C;
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-    vertical-align: baseline;
-    top: 18vh;
-    left: 8vh;
-    z-index: -1;
-}
-
-.home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 25px;
-    top: 0;
-    height: 100%;
-    padding: 0 20px;
-    /* background: grey; */
-}
-
-.li {
-    display: list-item;
-    text-align: -webkit-match-parent;
-    font-family: Monument Grotesk;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    text-align: center;
-    color: black;
-    margin: 15px;
-}
-
-.ul-hover:hover {
-    color: gray;
-}
-
-ol,
-ul {
-    list-style: none;
-}
-
-.nav-list {
-    display: flex;
-    justify-content: flex-end;
-    margin-inline-end: 150px;
-}
-
-.nav-list>li+li {
-    margin-left: 30px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-}
-
-a,
-a:visited {
-    color: inherit;
-}
-
-.intro {
-    min-height: 100vh;
-    display: flex;
-}
-
-.works {
-    display: flex;
-    min-height: 100vh;
-}
-
-.footer {
-    display: flex;
-}
-
-.col-1 {
-    width: calc(1 / 6 * 100%);
-    /* border: solid 1px black; */
-}
-
-.col {
-    position: fixed;
-}
-
-.col-2 {
-    width: calc(2 / 6 * 100%);
-    /* border: solid 1px black; */
-}
-
-.col-3 {
-    width: calc(3 / 6 * 100%);
-    /* border: solid 1px black; */
-}
-
-.col-4 {
-    width: calc(4 / 6 * 100%);
-    /* border: solid 1px black; */
-}
-
-.col-5 {
-    width: calc(5 / 6 * 100%);
-    /* border: solid 1px black; */
-}
-
-.col-6 {
-    width: calc(6 / 6 * 100%);
-    /* border: solid 1px black; */
-}
-
-.grid+.grid {
-    margin-top: 20rem;
-}
-
-.maintext {
-    font-family: Baskerville;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    color: #151515;
-    width: 298px;
-    height: 92px;
-    margin-top: 195px;
-    margin-left: 20px;
-}
-
-hr {
-    position: absolute;
-    width: 41vh;
-    right: 0px;
-    top: 442px;
-    justify-content: flex-end;
-    border: none;
-    background-color: black;
-    color: black;
-    height: 1px;
-    display: block;
-    unicode-bidi: isolate;
-    margin-block-start: 1em;
-    margin-block-end: 0.5em;
-    margin-inline-start: 1em;
-    margin-inline-end: auto;
-    overflow: hidden;
-}
-
-.circle {
-    position: absolute;
-    display: flex;
-    margin-top: 265px;
-    /* margin-left: 145px; */
-    margin-left: 30vh;
-    z-index: -1;
-    align-items: center;
-    justify-content: center
-}
-
-.discover {
-    position: absolute;
-    right: 96px;
-    font-family: Baskerville;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 48px;
-    line-height: 55px;
-    color: #000000;
-    align-items: center;
-}
-
-.arrow {
-    position: absolute;
-    left: 10vh;
-    top: 90vh;
-    z-index: -1;
-}
-
-.btn {
-    width: 125px;
-    height: 41px;
-    cursor: pointer;
-    border: #13798C solid 2px;
-    background: white;
-    color: black;
-    font-family: Monument Grotesk;
-    font-size: 14px;
-    line-height: 23px;
-    border-radius: 40px;
-    outline: none;
-    box-sizing: border-box;
-    border-radius: 30px;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    margin-left: 15px;
-    margin-top: 15px;
-}
-
-.btn:hover {
-    background-color: grey;
-}
-
-.btn:active {
-    background-color: #13798C;
-    color: white;
-}
-
-.behance {
-    color: #13798C;
-    font-family: Monument Grotesk;
-    font-weight: normal;
-    font-size: 18px;
-    position: absolute;
-    width: 86px;
-    height: 41px;
-    top: 85vh;
-    font-style: normal;
-    line-height: 0px;
-    text-align: right;
-    z-index: -1;
-}
-
-.behance:hover {
-    color: black;
-}
-
-.insta {
-    color: #13798C;
-    font-family: Monument Grotesk;
-    font-weight: normal;
-    font-size: 18px;
-    position: absolute;
-    width: 89px;
-    height: 46px;
-    top: 90vh;
-    font-style: normal;
-    line-height: 0px;
-    text-align: right;
-    z-index: -1;
-}
-
-.insta:hover {
-    color: black;
-}
-
-.works {
-    background: #F8F8F8;
-}
-
-.worksp {
-    position: absolute;
-    height: 64px;
-    top: 50vh;
-    font-family: Baskerville;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 116.31%;
-    /* or 56px */
-    letter-spacing: 0.145em;
-    color: #000000;
-    transform: rotate(-90deg);
-    /* z-index: -1; */
-}
-
-.worksborder {
-    border-bottom: 1px solid black;
-    font-weight: normal;
-    padding-bottom: 5px;
-    margin-bottom: 10px;
-}
-
-.grid {
-    display: flex;
-    background: white;
-    height: 100vh;
-    margin: 5%;
-    margin-left: 0px;
-    margin-right: 15px;
-    /* border: solid 1px grey; */
-}
-
-.card-column-1 {
-    width: 50%;
-    padding: 20px;
-    /* border: 1px solid red; */
-}
-
-.child-1 {
-    background-color: white;
-    height: 50%;
-    margin-top: 20px;
-    /* border: solid 1px grey; */
-}
-
-.child-2 {
-    background-color: white;
-    height: 40%;
-    /* border: solid 1px grey; */
-}
-
-.card-column-2 {
-    width: 40%;
-    padding: 0px;
-    margin-top: 72px;
-    padding: 20px;
-    padding-right: 20px;
-    /* border: 1px solid red; */
-}
-
-.child-3 {
-    background-color: white;
-    height: 70%;
-    border: solid 1px grey;
-}
-
-.wrapper {
-    padding: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.box {
-    /* align-items: center; */
-    width: 180px;
-    height: 60px;
-    border: 1px solid gray;
-    margin: 10px;
-    text-align: center;
-    position: relative;
-    color: #13798C;
-    font-family: Monument Grotesk;
-    font-weight: normal;
-    font-size: 18px;
-    margin-inline-start: 175px;
-}
-
-.box:hover {
-    color: grey;
-    background-color: #13798C;
-}
-
-.namework {
-    font-family: Baskerville;
-    font-style: normal;
-    font-size: 24px;
-    line-height: 116.31%;
-    /* or 28px */
-    letter-spacing: -0.005em;
-    margin-top: 20px;
-    color: #13798C;
-}
-
-.diskriptiontext {
-    font-family: Monument Grotesk;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    color: #000000;
-}
+    @font-face {
+        font-family: 'Monument Grotesk';
+        src: url('MonumentGrotesk-Bold.eot');
+        src: local('Monument Grotesk Bold'), local('MonumentGrotesk-Bold'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Monument Grotesk';
+        src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.eot');
+        src: local('Monument Grotesk Italic'), local('MonumentGrotesk-Italic'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.eot')format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Italic.ttf') format('truetype');
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Monument Grotesk';
+        src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.eot');
+        src: local('Monument Grotesk Medium'), local('MonumentGrotesk-Medium'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Monument Grotesk Semi-Mono';
+        src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.eot');
+        src: local('Monument Grotesk Semi-Mono'), local('MonumentGrotesk-Semi-Mono'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Mono.ttf') format('truetype');
+        font-weight: 600;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Monument Grotesk';
+        src: url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.eot');
+        src: local('Monument Grotesk Regular'), local('MonumentGrotesk-Regular'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.eot') format('embedded-opentype'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.woff2') format('woff2'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.woff') format('woff'), url('assets/fonts/MonumentGrotesk/MonumentGrotesk-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Monument Grotesk Mono';
+        src: url('MonumentGrotesk-Mono.eot');
+        src: local('Monument Grotesk Mono'), local('MonumentGrotesk-Mono'), url('MonumentGrotesk-Mono.eot?#iefix') format('embedded-opentype'), url('MonumentGrotesk-Mono.woff2') format('woff2'), url('MonumentGrotesk-Mono.woff') format('woff'), url('MonumentGrotesk-Mono.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+    @font-face {
+        font-family: 'Monument Grotesk';
+        src: url('MonumentGrotesk-BoldItalic.eot');
+        src: local('Monument Grotesk Bold Italic'), local('MonumentGrotesk-BoldItalic'), url('MonumentGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'), url('MonumentGrotesk-BoldItalic.woff2') format('woff2'), url('MonumentGrotesk-BoldItalic.woff') format('woff'), url('MonumentGrotesk-BoldItalic.ttf') format('truetype');
+        font-weight: bold;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Monument Grotesk';
+        src: url('MonumentGrotesk-MediumItalic.eot');
+        src: local('Monument Grotesk Medium Italic'), local('MonumentGrotesk-MediumItalic'), url('MonumentGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'), url('MonumentGrotesk-MediumItalic.woff2') format('woff2'), url('MonumentGrotesk-MediumItalic.woff') format('woff'), url('MonumentGrotesk-MediumItalic.ttf') format('truetype');
+        font-weight: 500;
+        font-style: italic;
+    }
+    
+    @font-face {
+        font-family: 'Baskerville Normal';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Baskerville Normal'), url('assets/fonts/baskerville-cufonfonts-webfont/baskvl.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Baskerville Regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Baskerville Regular'), url('assets/fonts/baskerville-cufonfonts-webfont/baskervi.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Baskerville Light-Italic';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Baskerville Light-Italic'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKE10.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Baskerville Light';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Baskerville Light'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKE9.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Baskerville LightA';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Baskerville LightA'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKRV_L.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Baskerville Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Baskerville Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/BASKE1.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Baskerville Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Baskerville Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/Baskerville\ Bold\ font.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Baskerville BT Roman';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Baskerville BT Roman'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleBT.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Baskerville BT Italic';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Baskerville BT Italic'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleItalicBT.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Baskerville BT Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Baskerville BT Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleBoldBT.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Baskerville BT Bold';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Baskerville BT Bold'), url('assets/fonts/baskerville-cufonfonts-webfont/baskerville\ bold\ bt.woff') format('woff');
+    }
+    
+    @font-face {
+        font-family: 'Baskerville BT Bold Italic';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Baskerville BT Bold Italic'), url('assets/fonts/baskerville-cufonfonts-webfont/BaskervilleBoldItalicBT.woff') format('woff');
+    }
+    
+    *,
+    *::after,
+    *::before {
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: block;
+        margin-top: -6px;
+        padding: 6rem 0 0px;
+    }
+    
+    header {
+        /* border: 1px solid black; */
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        padding: 0px;
+        background-color: white;
+        font-size: 18px;
+        font-family: Monument Grotesk;
+        z-index: 999;
+    }
+    
+    .menu__btn {
+        display: flex;
+        /* используем flex для центрирования содержимого */
+        align-items: center;
+        /* центрируем содержимое кнопки */
+        position: fixed;
+        top: 40px;
+        left: 40px;
+        width: 26px;
+        height: 26px;
+        cursor: pointer;
+        z-index: 1;
+        display: none;
+    }
+    
+    #menu__toggle {
+        opacity: 0;
+    }
+    
+    #menu__toggle:checked~.menu__btn>span {
+        transform: rotate(45deg);
+    }
+    
+    #menu__toggle:checked~.menu__btn>span::before {
+        top: 0;
+        transform: rotate(0);
+    }
+    
+    #menu__toggle:checked~.menu__btn>span::after {
+        top: 0;
+        transform: rotate(90deg);
+    }
+    
+    #menu__toggle:checked~.menu__box {
+        visibility: visible;
+        left: 0;
+    }
+    
+    .menu__btn>span,
+    .menu__btn>span::before,
+    .menu__btn>span::after {
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: #616161;
+        transition-duration: .25s;
+    }
+    
+    .menu__btn>span::before {
+        content: '';
+        top: -8px;
+    }
+    
+    .menu__btn>span::after {
+        content: '';
+        top: 8px;
+    }
+    
+    .menu__box {
+        display: block;
+        position: fixed;
+        visibility: hidden;
+        top: 0;
+        left: -100%;
+        width: 300px;
+        height: 100%;
+        margin: 0;
+        padding: 80px 0;
+        list-style: none;
+        background-color: #ECEFF1;
+        box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+        transition-duration: .25s;
+    }
+    
+    .menu__item {
+        display: block;
+        padding: 12px 24px;
+        color: #333;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        transition-duration: .25s;
+    }
+    
+    .menu__item:hover {
+        background-color: #CFD8DC;
+    }
+    
+    .home {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        left: 25px;
+        top: 0;
+        height: 100%;
+        padding: 0 20px;
+        /* background: grey; */
+    }
+    
+    .li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+        font-family: Monument Grotesk;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        text-align: center;
+        color: black;
+        margin: 15px;
+    }
+    
+    .ul-hover:hover {
+        color: gray;
+    }
+    
+    ol,
+    ul {
+        list-style: none;
+    }
+    
+    .nav-list {
+        display: flex;
+        justify-content: flex-end;
+        margin-inline-end: 150px;
+    }
+    
+    .nav-list>li+li {
+        margin-left: 30px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a,
+    a:visited {
+        color: inherit;
+    }
+    
+    .intro {
+        min-height: 100vh;
+        display: flex;
+    }
+    
+    .works {
+        display: flex;
+        min-height: 100vh;
+    }
+    
+    .footer {
+        display: flex;
+    }
+    
+    .col-1 {
+        width: calc(1 / 6 * 100%);
+        /* border: solid 1px black; */
+    }
+    
+    .col {
+        position: fixed;
+    }
+    
+    .col-2 {
+        width: calc(2 / 6 * 100%);
+        /* border: solid 1px black; */
+    }
+    
+    .col-3 {
+        width: calc(3 / 6 * 100%);
+        /* border: solid 1px black; */
+    }
+    
+    .col-4 {
+        width: calc(4 / 6 * 100%);
+        /* border: solid 1px black; */
+    }
+    
+    .col-5 {
+        width: calc(5 / 6 * 100%);
+        /* border: solid 1px black; */
+    }
+    
+    .col-6 {
+        width: calc(6 / 6 * 100%);
+        /* border: solid 1px black; */
+    }
+    
+    .grid+.grid {
+        margin-top: 20rem;
+    }
+    
+    .maintext {
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        color: #151515;
+        width: 298px;
+        height: 92px;
+        margin-top: 195px;
+        margin-left: 20px;
+    }
+    
+    .works {
+        background: #F8F8F8;
+    }
+    
+    .worksp {
+        position: absolute;
+        height: 64px;
+        top: 50vh;
+        font-family: Baskerville;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 116.31%;
+        /* or 56px */
+        letter-spacing: 0.145em;
+        color: #000000;
+        transform: rotate(-90deg);
+        /* z-index: -1; */
+    }
+    
+    .worksborder {
+        border-bottom: 1px solid black;
+        font-weight: normal;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .grid {
+        display: flex;
+        background: white;
+        height: 100vh;
+        margin: 5%;
+        margin-left: 0px;
+        margin-right: 15px;
+        /* border: solid 1px grey; */
+    }
+    
+    .card-column-1 {
+        width: 50%;
+        padding: 20px;
+        /* border: 1px solid red; */
+    }
+    
+    .child-1 {
+        background-color: white;
+        height: 50%;
+        margin-top: 20px;
+        /* border: solid 1px grey; */
+    }
+    
+    .child-2 {
+        background-color: white;
+        height: 40%;
+        /* border: solid 1px grey; */
+    }
+    
+    .card-column-2 {
+        width: 40%;
+        padding: 0px;
+        margin-top: 72px;
+        padding: 20px;
+        padding-right: 20px;
+        /* border: 1px solid red; */
+    }
+    
+    .child-3 {
+        background-color: white;
+        height: 70%;
+        border: solid 1px grey;
+    }
+    
+    .wrapper {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .box {
+        /* align-items: center; */
+        width: 180px;
+        height: 60px;
+        border: 1px solid gray;
+        margin: 10px;
+        text-align: center;
+        position: relative;
+        color: #13798C;
+        font-family: Monument Grotesk;
+        font-weight: normal;
+        font-size: 18px;
+        margin-inline-start: 175px;
+    }
+    
+    .box:hover {
+        color: grey;
+        background-color: #13798C;
+    }
+    
+    .namework {
+        font-family: Baskerville;
+        font-style: normal;
+        font-size: 24px;
+        line-height: 116.31%;
+        /* or 28px */
+        letter-spacing: -0.005em;
+        margin-top: 20px;
+        color: #13798C;
+    }
+    
+    .diskriptiontext {
+        font-family: Monument Grotesk;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        color: #000000;
+    }
+    
+    @media (min-width: 1400px) {
+        header {
+            /* border: 1px solid black; */
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 1440px;
+            background-color: #F8F8F8;
+            font-size: 18px;
+            font-family: Monument Grotesk;
+            z-index: 999;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1048px) {
+        p {
+            font-family: Monument Grotesk;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 116.31%;
+            text-transform: capitalize;
+            color: #000000;
+        }
+        .box {
+            /* align-items: center; */
+            width: 167px;
+            height: 56px;
+            border: 1px solid gray;
+            margin: 0px;
+            text-align: center;
+            position: relative;
+            color: #13798C;
+            font-family: Monument Grotesk;
+            font-weight: normal;
+            font-size: 18px;
+            /* margin-inline-start: 163px; */
+        }
+        img {
+            width: 80%;
+        }
+        .worksborder {
+            border-bottom: 1px solid black;
+            font-weight: normal;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .worksp {
+            position: absolute;
+            height: 40px;
+            top: 50vh;
+            font-family: Baskerville;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 30px;
+            line-height: 116.31%;
+            letter-spacing: 0.145em;
+            color: #000000;
+            transform: rotate(-90deg);
+            /* z-index: -1; */
+        }
+        .child-3 {
+            background-color: white;
+            height: 38%;
+            border: solid 1px grey;
+        }
+    }
+    
+    @media (min-width: 375px) and (max-width: 768px) {
+        p {
+            font-family: Monument Grotesk;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 116.31%;
+            text-transform: capitalize;
+            color: #000000;
+        }
+        .grid {
+            display: flex;
+            background: white;
+            height: max-content;
+            margin: 5%;
+            margin-left: 0px;
+            margin-right: 15px;
+            /* border: solid 1px grey; */
+        }
+        .card-column-1 {
+            width: 50%;
+            padding: 20px;
+            /* border: 1px solid red; */
+            height: max-content;
+        }
+        .card-column-2 {
+            width: 50%;
+            padding: 20px;
+            /* border: 1px solid red; */
+            /* height: max-content; */
+        }
+        .worksp {
+            position: absolute;
+            height: 30px;
+            top: 50vh;
+            font-family: Baskerville;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 20px;
+            /* line-height: 116.31%; */
+            letter-spacing: 0.145em;
+            color: #000000;
+            transform: rotate(-90deg);
+            /* z-index: -1; */
+        }
+        .works {
+            display: flex;
+            min-height: max-content;
+        }
+        .namework {
+            font-family: Baskerville;
+            font-style: normal;
+            font-size: 20px;
+            line-height: 116.31%;
+            letter-spacing: -0.005em;
+            margin-top: 20px;
+            color: #13798C;
+        }
+        .box {
+            /* align-items: center; */
+            width: 167px;
+            height: 56px;
+            border: 1px solid gray;
+            margin: 0px;
+            text-align: center;
+            position: relative;
+            color: #13798C;
+            font-family: Monument Grotesk;
+            font-weight: normal;
+            font-size: 18px;
+            /* margin-inline-start: 163px; */
+        }
+    }
+    
+    @media (max-width: 375px) {
+        hr {
+            display: none;
+        }
+        header {
+            /* border: 1px solid black; */
+            position: fixed;
+            left: 0;
+            top: 0px;
+            width: 100%;
+            padding: 30px;
+            background-color: #F8F8F8;
+            font-size: 18px;
+            font-family: Monument Grotesk;
+            z-index: 999;
+        }
+        .menu__btn {
+            display: flex;
+            /* используем flex для центрирования содержимого */
+            align-items: center;
+            /* центрируем содержимое кнопки */
+            position: fixed;
+            top: 40px;
+            left: 40px;
+            width: 26px;
+            height: 26px;
+            cursor: pointer;
+            z-index: 1000;
+            display: block;
+        }
+        .menu__box {
+            display: block;
+            position: fixed;
+            visibility: hidden;
+            top: 0;
+            left: -100%;
+            width: 341px;
+            height: 100%;
+            margin: 0;
+            padding: 80px 0;
+            list-style: none;
+            background-color: #ECEFF1;
+            box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+            transition-duration: .25s;
+            z-index: 20;
+        }
+        .li {
+            display: list-item;
+            text-align: -webkit-match-parent;
+            font-family: Monument Grotesk;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            text-align: center;
+            color: black;
+            margin: 15px;
+            display: none;
+        }
+        .nav-list {
+            display: none;
+        }
+        .home {
+            display: flex;
+            /* justify-content: center; */
+            /* align-items: center; */
+            position: absolute;
+            /* left: 21px; */
+            right: -176px;
+            top: -4px;
+            height: 100%;
+            /* padding: 0 20px; */
+            /* background: grey; */
+        }
+        .worksp {
+            display: none;
+        }
+        .namework {
+            font-family: Baskerville;
+            font-style: normal;
+            font-size: 20px;
+            line-height: 116.31%;
+            letter-spacing: -0.005em;
+            margin-top: 20px;
+            margin-left: 27%;
+            color: #13798C;
+        }
+        .grid {
+            display: block;
+            background: white;
+            height: max-content;
+            margin: 5%;
+            margin-top: 5%;
+            /* margin-right: 0; */
+            margin-bottom: 5%;
+            margin-left: 5%;
+            /*width: 100%; */
+        }
+        .col-1 {
+            display: none;
+        }
+        .card-column-1 {
+            width: 100%;
+            padding: 3%;
+            /* margin: 6% 3% 3% 3%; */
+            /* border: 1px solid red; */
+        }
+        .child-1 {
+            background-color: white;
+            /* height: 40%; */
+            margin-top: 10%;
+        }
+        .card-column-2 {
+            display: none;
+        }
+        .col-5 {
+            width: calc(6 / 6 * 100%);
+            /* border: solid 1px black; */
+        }
+        .card-column-3 {
+            width: 100%;
+            margin-left: 3%;
+            margin-top: 0;
+            /* margin-top: 27px; */
+            /* margin-top: 27px; */
+            /* border: 1px solid red; */
+        }
+        img {
+            width: 95%;
+            height: 50%;
+        }
+        .box {
+            /* align-items: center; */
+            width: 180px;
+            height: 60px;
+            border: 1px solid gray;
+            margin: 10px;
+            text-align: center;
+            position: relative;
+            color: #13798C;
+            font-family: Monument Grotesk;
+            font-weight: normal;
+            font-size: 16px;
+            /* margin-inline-start: 175px; */
+        }
+        .deskriptiontext {
+            margin-top: 0;
+            padding-top: 0;
+            /* width: 93%; */
+        }
+        p {
+            font-family: Monument Grotesk;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 116.31%;
+            /* text-transform: capitalize; */
+            color: #000000;
+            text-align: center;
+        }
+    }
