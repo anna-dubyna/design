@@ -680,6 +680,10 @@ hr {
     font-family: Monument Grotesk;
     font-weight: normal;
     font-size: 18px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     margin-inline-start: 175px;
 }
 
