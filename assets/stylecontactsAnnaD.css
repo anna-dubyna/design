@@ -844,6 +844,10 @@
                     .worksp {
                         display: none;
                     }
+                    .works {
+                        display: flex;
+                        min-height: 63vh;
+                    }
                     .namework {
                         font-family: Baskerville;
                         font-style: normal;
