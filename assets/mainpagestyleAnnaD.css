@@ -1152,6 +1152,20 @@ hr {
         opacity: 1;
         display: none;
     }
+    .boxcont {
+        /* align-items: center; */
+        width: 100%;
+        height: 25%;
+        border: 1px solid gray;
+        text-align: center;
+        position: relative;
+        color: black;
+        font-family: Monument Grotesk;
+        font-weight: normal;
+        font-size: 18px;
+        vertical-align: middle;
+        margin: 0;
+    }
 }
 
 .frame {
