@@ -497,8 +497,8 @@ hr {
     width: 125px;
     height: 41px;
     display: inline-flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     cursor: pointer;
     border: #13798C solid 2px;
     background: white;
@@ -1001,7 +1001,6 @@ hr {
         text-align: center;
         display: inline-flex;
         justify-content: center;
-        align-items: center;
         margin-left: 0%;
         margin-top: -23%;
     }
@@ -1034,7 +1033,7 @@ hr {
         /* align-items: center; */
         width: 46%;
         /* height: 60px; */
-        top: 76%;
+        top: 79%;
         right: -6%;
         /* border: 1px solid gray; */
         /* margin: 10px; */
