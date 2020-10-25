@@ -468,6 +468,9 @@
         font-family: Monument Grotesk;
         font-weight: normal;
         font-size: 18px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
         margin-inline-start: 175px;
     }
     
@@ -633,6 +636,9 @@
             font-family: Monument Grotesk;
             font-weight: normal;
             font-size: 18px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
             /* margin-inline-start: 163px; */
         }
     }
@@ -779,6 +785,9 @@
             font-family: Monument Grotesk;
             font-weight: normal;
             font-size: 16px;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
             /* margin-inline-start: 175px; */
         }
         .deskriptiontext {
