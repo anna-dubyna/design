@@ -576,7 +576,7 @@
             font-size: 18px;
             display: inline-flex;
             justify-content: center;
-            align-items: center;
+            /* align-items: center; */
             margin-inline-start: 175px;
         }
         

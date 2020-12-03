@@ -457,7 +457,7 @@
     }
     
     .box {
-        /* align-items: center; */
+       
         width: 180px;
         height: 60px;
         border: 1px solid gray;
@@ -470,7 +470,7 @@
         font-size: 18px;
         display: inline-flex;
         justify-content: center;
-        align-items: center;
+        /* align-items: center; */
         margin-inline-start: 175px;
     }
     
